@@ -1,0 +1,38 @@
+﻿<Experiences><List>
+	
+	<Experience Name="ExperiencesWhite">
+		<DisplayName>太白劍宗</DisplayName>
+		<Desc>李白乃劍仙轉世，於太一門時悟出《太白劍訣》的传承。\n\n\n[size=10]解锁功法：[color=#D06508]《太白劍訣》[/color][/size]</Desc>
+		<Point>-9</Point>
+		<NpcSlot>5</NpcSlot>
+		<Gongs>
+			<li>Gong_SanQing_None</li>
+		</Gongs>
+		<ModifierDef>
+			<BaseFive>1,1,1,1,1</BaseFive>
+			<Skills>
+				<li Name="Manual" Level="5"/>
+				<li Name="DanQi" Level="5"/>
+				<li Name="Fabao" Level="5"/>
+				<li Name="Barrier" Level="5"/>
+				<li Name="FightSkill" Level="5"/>
+			</Skills>
+			<Properties>
+				<li Name="NpcFight_ShieldConversionRate" BAddP="0.2"/>
+				<li Name="NpcFight_SpellPowerAddP" BAddP="0.2"/>
+			</Properties>
+		</ModifierDef>
+		<Items>
+	      <li Name= "Item_God_Stone" Count="20"/>
+		  <li Name= "SP_Sword3" Stuff="Item_Other_BuZhiMing" Quality="100"/>
+		  <li Name= "Item_LunHui_PerfectWorld" Quality="100"/>
+		  <li Name = "Item_StarEssenceBlock" Count = "50"/>
+		</Items>
+		<Equips>
+			<li Name= "Item_FormalClothes" Stuff="Item_YaoLeather1" Quality="100"/>
+			<li Name= "Item_FormalTrousers" Stuff="Item_YaoLeather1" Quality="100"/>
+			<li Name= "SP_Sword3" Stuff="Item_Other_BuZhiMing" Quality="100"/>
+		</Equips>		
+	</Experience>
+	
+</List></Experiences>

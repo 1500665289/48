@@ -1,0 +1,339 @@
+<ThingDefs><List>
+	<ThingDef Type="Item" Name="MiBaoBase" Parent="ItemBase">
+	
+	<ThingName></ThingName>
+	<MaxStack>1</MaxStack>
+	<TexPath></TexPath>
+	<Desc>Desc.</Desc>
+	<SelectAble>1</SelectAble>
+	<VisualAble>1</VisualAble>
+
+	<Beauty>15</Beauty>
+	<Rate>12</Rate>
+	
+	<Flammability>
+		<Flammability>-10</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>
+	</Flammability>
+	
+	<Item Kind="Equipment" Type="Treasure">
+		<NotRandom>1</NotRandom>
+		<NotFengshuiItem>1</NotFengshuiItem>
+		<FuelMultiplier>1</FuelMultiplier>
+		<BeMade>
+			<Quality>100</Quality>
+			<WorkToMake>3000</WorkToMake>
+		</BeMade> 
+		<Rot>
+			<RotSpeed>0</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+		
+		<!-- 
+		<Equip>
+			<ToolModifier>Modifier_Item_BossFeng_HuoYu</ToolModifier>
+		</Equip> 
+		-->
+	</Item>
+	
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	
+	<Element>
+		<Kind>None</Kind>
+		<Value>15</Value>         
+		<Radius>3</Radius>
+		<Failing>1</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_MiBao_ZhuXianJian_White" Parent="MiBaoBase">
+	<ThingName>誅仙劍</ThingName>
+	<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>	
+	<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+	<Desc>传自上古的神剑，虽为仿制，但依然拥有无比凌厉之杀机。此剑以蛟龙之天角为核心，百斤星髓凝练剑胎，五行属金，吸收天雷成灵，与敌人飞剑法宝对拼可成倍的提高威力。（装备后右键以尝试吸收雷暴天气）</Desc>
+	<Beauty>150</Beauty>
+	<Rate>12</Rate>
+	<ElementKind>Jin</ElementKind>
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>Sharp</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Fly</li>
+			<li>GreatThing_Ling</li>
+			<li>KillGod</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_WeaponSwordSky" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+			    <Condition eventid = "KillCount" des = "殺死五個生靈" needcount = "5"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.5" nParam1="2" Desc="与法宝拼斗时，造成1.5倍伤害。"/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Yuanshenxinjian" Desc="御剑技能提高10"/>
+				 <Ability Kind="FlyDamageAddP" fParam1="0.01" Desc="飞剑每飞行1秒，基础威力就提高1%，返回后清空。"/>
+				 <Ability Kind="HitAddRecovery" fParam1="0.1"  Desc="造成伤害的10%会补充为法宝自身的灵气。"/>
+				 <Ability Kind="HitCountAddMirror" nParam1="7" fParam1="7" Desc="每攻击7次，产生1道剑光分化，持续7秒"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoPowerAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝威力加成30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoFlySpeedAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝飞行速度30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoTurnSpeedAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝转弯速度30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoMaxLingAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝灵气加成30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoRepelDistanceAddV" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝击退距离30%。"/>
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Element>
+		<Kind>Jin</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_LuXianJian_White" Parent="MiBaoBase">
+	<ThingName>戮仙劍</ThingName>
+	<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>	
+	<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+	<Desc>传自上古的神剑，虽为仿制，但依然拥有无比凌厉之杀机。此剑以蛟龙之天角为核心，百斤火精矿凝练剑胎，五行属火，吸收焚风成灵，发动攻击时有机会爆发灵机，造成多倍伤害。（装备后右键以尝试吸收焚风天气）</Desc>
+	<ElementKind>Huo</ElementKind>
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>Sharp</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Ling</li>
+			<li>GreatThing_Ling</li>
+			<li>KillGod</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_WeaponSwordSky" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+			    <Condition eventid = "KillCount" des = "殺死五個生靈" needcount = "5"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.5" nParam1="2" Desc="与法宝拼斗时，造成1.5倍伤害。"/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Yuanshenxinjian" Desc="御剑技能提高10"/>
+				 <Ability Kind="FlyDamageAddP" fParam1="0.01" Desc="飞剑每飞行1秒，基础威力就提高1%，返回后清空。"/>
+				 <Ability Kind="HitAddRecovery" fParam1="0.1"  Desc="造成伤害的10%会补充为法宝自身的灵气。"/>
+				 <Ability Kind="HitCountAddMirror" nParam1="7" fParam1="7" Desc="每攻击7次，产生1道剑光分化，持续7秒"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoPowerAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝威力加成30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoFlySpeedAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝飞行速度30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoTurnSpeedAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝转弯速度30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoMaxLingAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝灵气加成30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoRepelDistanceAddV" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝击退距离30%。"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'FohnNoFeng','Fohn'})</UseLua>
+	</Item>
+	<Element>
+		<Kind>Huo</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_XianXianJian_White" Parent="MiBaoBase">
+	<ThingName>陷仙劍</ThingName>
+	<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>	
+	<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+	<Desc>传自上古的神剑，虽为仿制，但依然拥有无比凌厉之杀机。此剑以蛟龙之天角为核心，百斤梧桐神木凝练剑胎，五行属木，吸收瘴气成灵，发动攻击时含腐蚀之力，可对灵气护盾造成额外伤害。（装备后右键以尝试吸收瘴气天气）</Desc>
+	<ElementKind>Mu</ElementKind>
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>Sharp</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Fly</li>
+			<li>GreatThing_Ling</li>
+			<li>KillGod</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_WeaponSwordSky" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+			    <Condition eventid = "KillCount" des = "殺死五個生靈" needcount = "5"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.5" nParam1="2" Desc="与法宝拼斗时，造成1.5倍伤害。"/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Yuanshenxinjian" Desc="御剑技能提高10"/>
+				 <Ability Kind="FlyDamageAddP" fParam1="0.01" Desc="飞剑每飞行1秒，基础威力就提高1%，返回后清空。"/>
+				 <Ability Kind="HitAddRecovery" fParam1="0.1"  Desc="造成伤害的10%会补充为法宝自身的灵气。"/>
+				 <Ability Kind="HitCountAddMirror" nParam1="7" fParam1="7" Desc="每攻击7次，产生1道剑光分化，持续7秒"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoPowerAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝威力加成30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoFlySpeedAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝飞行速度30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoTurnSpeedAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝转弯速度30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoMaxLingAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝灵气加成30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoRepelDistanceAddV" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝击退距离30%。"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'Miasma'})</UseLua>
+	</Item>
+	<Element>
+		<Kind>Mu</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_JueXianJian_White" Parent="MiBaoBase">
+	<ThingName>絕仙劍</ThingName>
+	<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>	
+	<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+	<Desc>传自上古的神剑，虽为仿制，但依然拥有无比凌厉之杀机。此剑以蛟龙之天角为核心，百斤天柱石凝练剑胎，五行属土，吸收沙暴成灵，发动攻击时有可能基于对方灵气多寡造成杀伤。（装备后右键以尝试吸收沙暴天气）</Desc>
+	<ElementKind>Tu</ElementKind>
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>Sharp</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Fly</li>
+			<li>GreatThing_Ling</li>
+			<li>KillGod</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_WeaponSwordSky" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+			    <Condition eventid = "KillCount" des = "殺死五個生靈" needcount = "5"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.5" nParam1="2" Desc="与法宝拼斗时，造成1.5倍伤害。"/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Yuanshenxinjian" Desc="御剑技能提高10"/>
+				 <Ability Kind="FlyDamageAddP" fParam1="0.01" Desc="飞剑每飞行1秒，基础威力就提高1%，返回后清空。"/>
+				 <Ability Kind="HitAddRecovery" fParam1="0.1"  Desc="造成伤害的10%会补充为法宝自身的灵气。"/>
+				 <Ability Kind="HitCountAddMirror" nParam1="7" fParam1="7" Desc="每攻击7次，产生1道剑光分化，持续7秒"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoPowerAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝威力加成30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoFlySpeedAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝飞行速度30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoTurnSpeedAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝转弯速度30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoMaxLingAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝灵气加成30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoRepelDistanceAddV" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝击退距离30%。"/>
+			</SpecialAbility>
+		</Fabao>
+		<UseLua>GameMain:GetMod('_FabaoHelper'):FabaoActiveWeather({'DustStorm'})</UseLua>
+	</Item>
+	<Element>
+		<Kind>Tu</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_DesXianJian_White" Parent="MiBaoBase">
+	<ThingName>滅仙劍</ThingName>
+	<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>	
+	<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+	<Desc>传自上古的神剑，虽为仿制，但依然拥有无比凌厉之杀机。此剑以蛟龙之天角为核心，百斤星髓凝练剑胎，五行属水，吸收天雷成灵，与敌人飞剑法宝对拼可成倍的提高威力。（装备后右键以尝试吸收雷暴天气）</Desc>
+	<Beauty>150</Beauty>
+	<Rate>12</Rate>
+	<ElementKind>Shui</ElementKind>
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>Sharp</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Fly</li>
+			<li>GreatThing_Ling</li>
+			<li>KillGod</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_WeaponSwordSky" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+			    <Condition eventid = "KillCount" des = "殺死五個生靈" needcount = "5"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.5" nParam1="2" Desc="与法宝拼斗时，造成1.5倍伤害。"/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Yuanshenxinjian" Desc="御剑技能提高10"/>
+				 <Ability Kind="FlyDamageAddP" fParam1="0.01" Desc="飞剑每飞行1秒，基础威力就提高1%，返回后清空。"/>
+				 <Ability Kind="HitAddRecovery" fParam1="0.1"  Desc="造成伤害的10%会补充为法宝自身的灵气。"/>
+				 <Ability Kind="HitCountAddMirror" nParam1="7" fParam1="7" Desc="每攻击7次，产生1道剑光分化，持续7秒"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoPowerAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝威力加成30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoFlySpeedAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝飞行速度30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoTurnSpeedAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝转弯速度30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoMaxLingAddP" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝灵气加成30%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoRepelDistanceAddV" fParam2="0.3" nParam1="1" Desc="从根本上提高自身法宝击退距离30%。"/>
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Element>
+		<Kind>Shui</Kind>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MiBao_BlueGodSword" Parent="MiBaoBase">
+	<ThingName>青蓮神剑</ThingName>
+	<TexPath>res\Sprs\object_zhengfatianxia\object_PTjian01</TexPath>	
+	<FabaoTexPath>res\Sprs\object_zhengfatianxia\object_JHjian01</FabaoTexPath>
+	<Desc>太白劍宗祖師，青蓮劍仙李白的佩劍，自修道之始就陪伴著他，因為李白劍心的蘊養，以及之後又經李白親自以各種天材地寶煉製，終於有了靈性，成為了修仙界數一數二的仙劍。</Desc>
+	<Beauty>150</Beauty>
+	<Rate>12</Rate>
+	<ElementKind>None</ElementKind>
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>Sharp</li>
+			<li>Hard2</li>
+			<li>Heavy1</li>
+			<li>GreatThing_Attack</li>
+			<li>GreatThing_Fly</li>
+			<li>GreatThing_Ling</li>
+			<li>BlueFlowerSword</li>
+		</PhysicalLables>
+		<Equip>
+			<Damage>200</Damage>
+		</Equip>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_WeaponSwordSky" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+			    <Condition eventid = "BrokenNeck" des = "携带胚胎结無1品金丹" needcount = "1" lParam = "Dan2" eParam = "None" fParam = "1"/>
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="1.0" nParam1="2" Desc="与法宝拼斗时，造成2.0倍伤害。"/>
+				 <Ability Kind="Sync_AddEquptDataModifier" sParam1="Mibao_Yuanshenxinjian" Desc="御剑技能提高20"/>
+				 <Ability Kind="FlyDamageAddP" fParam1="0.05" Desc="飞剑每飞行1秒，基础威力就提高5%，返回后清空。"/>
+				 <Ability Kind="HitAddRecovery" fParam1="0.2"  Desc="造成伤害的20%会补充为法宝自身的灵气。"/>
+				 <Ability Kind="HitCountAddMirror" nParam1="7" fParam1="7" Desc="每攻击7次，产生1道剑光分化，持续7秒"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoPowerAddP" fParam2="0.5" nParam1="1" Desc="从根本上提高自身法宝威力加成50%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoFlySpeedAddP" fParam2="0.5" nParam1="1" Desc="从根本上提高自身法宝飞行速度50%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoTurnSpeedAddP" fParam2="0.5" nParam1="1" Desc="从根本上提高自身法宝转弯速度50%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoMaxLingAddP" fParam2="0.5" nParam1="1" Desc="从根本上提高自身法宝灵气加成50%。"/>
+				 <Ability Kind="Sync_AddEquptData" sParam1="NpcFight_FabaoRepelDistanceAddV" fParam2="0.5" nParam1="1" Desc="从根本上提高自身法宝击退距离50%。"/>
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Ling>
+		<AddionLing>535</AddionLing>
+		<AddionRadius>5</AddionRadius>
+		<AddionFailing>0.5</AddionFailing>
+		<AddionFailRadius>4</AddionFailRadius>
+		<Attenuation>0.1</Attenuation>
+		<Absorption>10</Absorption>
+		<Accommodate>1000</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+	
+</List></ThingDefs>

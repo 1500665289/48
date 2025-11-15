@@ -1,0 +1,34 @@
+<PhysicalLables><List>
+	<!--东方赫神针特殊标签-->
+	
+		<Lable Name="BlueFlowerSword"> <!--青蓮神劍-->
+		<Effects>
+			<li Kind="AttackPower" Addp="5.5"/><!--法宝威力-->
+			<li Kind="LingRecover" Addp="4.5"/><!--回灵速度-->
+			<li Kind="MaxLing" Addp="3.5"/><!--灵气容量-->
+			<li Kind="FlySpeed" Addp="12"/><!--飞行速度-->
+			<li Kind="RotSpeed" Addp="10"/><!--转弯速度-->
+			<li Kind="KnockBackResistance" Addv="2"/><!--击退抵抗-->
+			<li Kind="KnockBackAddition" Addv="9"/><!--击退强度-->
+			<li Kind="TailLenght" Addp="4"/><!--拖尾长度-->
+			<li Kind="Scale" Addp="1"/><!--体积-->
+			<li Kind="AttackRate" Addv="3"/><!--攻击间隔-->
+		</Effects>
+	</Lable>
+	
+
+	<Lable Name="KillGod"> <!--誅仙四劍-->
+		<Effects>
+			<li Kind="AttackPower" Addp="3.5"/><!--法宝威力-->
+			<li Kind="LingRecover" Addp="2.6"/><!--回灵速度-->
+			<li Kind="MaxLing" Addp="2.7"/><!--灵气容量-->
+			<li Kind="FlySpeed" Addp="3"/><!--飞行速度-->
+			<li Kind="RotSpeed" Addp="4"/><!--转弯速度-->
+			<li Kind="KnockBackResistance" Addv="0.7"/><!--击退抵抗-->
+			<li Kind="KnockBackAddition" Addv="1.8"/><!--击退强度-->
+			<li Kind="TailLenght" Addp="0.3"/><!--拖尾长度-->
+			<li Kind="Scale" Addp="0.5"/><!--体积-->
+			<li Kind="AttackRate" Addv="0.5"/><!--攻击间隔-->
+		</Effects>
+	</Lable>
+</List></PhysicalLables> 

@@ -1,0 +1,189 @@
+﻿<Gongs><List>
+	<Gong Name="Gong_Chaos_None">  
+		<DisplayName>先天混元一氣功</DisplayName>
+		<Desc>混元宗功法，五種天材地寶練成五法聖地，一法一世界，再把五種真氣，合一形成混元氣</Desc>
+		<SelectDesc>此功法擅长各类术法且根基深厚，只是进阶需要各种至宝。是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>6,6,6,6,6</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>None</ElementKind>
+		<Skill> <!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>1</Hide>
+		<Stages>
+
+			<Stage Name="Stage1" Level="1">
+				<DisplayName>練氣境</DisplayName>
+				<Desc></Desc>
+				<Value>5000</Value>
+				<Necks>
+					<Neck Location="0.25" Kind="Chance">
+						<DisplayName>引气</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。\n此瓶颈神识越低，越难突破。[/color]</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Perception_1_1_10</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+					</Neck>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>胎息</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。\n此瓶颈神识越低，越难突破。[/color]</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Perception_1_1_10</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>先天</DisplayName>
+						<Desc>[color=#D06508]\n練氣有成，你走的是五法同修的道路，所以需要同時建立五個混元聖地。\n練氣有成，你走的是五法同修的道路，所以需要同時建立五個混元聖地。[/color]</Desc>
+						<CostTime>200</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<ItemCost>
+							<Item name="Item_JinEssence"/>
+							<Item name="Item_MuEssence"/>
+							<Item name="Item_ShuiEssence"/>
+							<Item name="Item_HuoEssence"/>
+							<Item name="Item_TuEssence"/>
+						</ItemCost>
+					</Neck>
+				</Necks>
+			</Stage>	
+
+			<Stage Name="Stage2" Level="3">
+				<DisplayName>筑基期</DisplayName>
+				<Desc></Desc>
+				<Value>20000</Value>
+				<Necks>
+					<Neck Location="0.25" Kind="Chance">
+						<DisplayName>塑体</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。\n此瓶颈根骨越低，越难突破。[/color]</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>Physique_1_1_10</FailedChangeAdd>
+					</Neck>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>融合</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。\n此瓶颈根骨越低，越难突破。[/color]</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Physique_1_1_10</SuccessChange>
+						<FailedChangeAdd>Physique_1_1_10</FailedChangeAdd>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>灵寂</DisplayName>
+						<Desc/>
+						<CostTime>200</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>	
+
+			<Stage Name="Stage3" Level="6">
+				<DisplayName>金丹期</DisplayName>
+				<Desc></Desc>
+				<Value>100000</Value>
+				<Necks>
+					<Neck Location="0.25" Kind="Chance">
+						<DisplayName>结丹</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。\n此瓶颈魅力越低，越难突破。[/color]</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+					</Neck>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>心动</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。\n此瓶颈魅力越低，越难突破。[/color]</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+					</Neck>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>龙虎</DisplayName>
+
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Stage4" Level="9">
+				<DisplayName>元婴期</DisplayName>
+				<Desc></Desc>
+				<Value>500000</Value>
+				<Necks>
+					
+					<Neck Location="0.25" Kind="Chance">
+						<DisplayName>成婴</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。\n此瓶颈悟性越低，越难突破。[/color]</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Intelligence_1_1_10</SuccessChange>
+						<FailedChangeAdd>Intelligence_1_1_10</FailedChangeAdd>
+					</Neck>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>出窍</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。\n此瓶颈悟性越低，越难突破。[/color]</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Intelligence_1_1_10</SuccessChange>
+						<FailedChangeAdd>Intelligence_1_1_10</FailedChangeAdd>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>分神</DisplayName>
+						<Desc/>
+						<CostTime>200</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<AddModifier>Gong_Thunder1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage5" Level="11">
+				<DisplayName>返虚期</DisplayName>
+				<Desc></Desc>
+				<Value>3000000</Value>
+				<Necks>
+					<Neck Location="0.25" Kind="Chance">
+						<DisplayName>入虚</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。\n此瓶颈机缘越低，越难突破。[/color]</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Luck_1_1_10</SuccessChange>
+						<FailedChangeAdd>Luck_1_1_10</FailedChangeAdd>
+					</Neck>
+					<Neck Location="0.5" Kind="Chance">
+						<DisplayName>度劫</DisplayName>
+						<Desc>[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。\n此瓶颈机缘越低，越难突破。[/color]</Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Luck_1_1_10</SuccessChange>
+						<FailedChangeAdd>Luck_1_1_10</FailedChangeAdd>
+					</Neck>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>大乘</DisplayName>
+						<Desc/>
+						<CostTime>200</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Stage5" Level="12">
+				<DisplayName>地仙</DisplayName>
+				<Desc></Desc>
+				<Value>10000000</Value>
+				<Necks>
+					<Neck Location="1" Kind="God">
+						<DisplayName>一氣生萬法</DisplayName>
+						<Desc/>
+						<NeckCountdown>60000</NeckCountdown>
+						<!--<NeckCountdown>60000</NeckCountdown>-->
+						<ThunderValue>500000</ThunderValue>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+		</Stages>
+	</Gong>
+</List></Gongs>

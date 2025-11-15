@@ -1,0 +1,221 @@
+﻿<ThingDefs><List>
+	<ThingDef Type="Building" Name="ProductionBase" Parent="BuildingBase">
+		<TexPath></TexPath>
+		<ThingName></ThingName>
+		<Desc>ProductionBase</Desc>
+		
+		<BlockLight>1</BlockLight>
+		<Beauty>2</Beauty>
+		<UseHitPoints>1</UseHitPoints>
+		<MaxHitPoints>500</MaxHitPoints>
+		<VisionRadius>10</VisionRadius>
+		
+		<ShadowSize>
+			<x>1</x>
+			<y>0.8</y>
+		</ShadowSize>
+		<Building>
+			<RoomKind>WorkRoom</RoomKind>
+			<BePackage>0</BePackage>
+			<ShowFree>1</ShowFree>
+			<SelectProduceStuff>1</SelectProduceStuff>
+			<WorkAnimation>assemble</WorkAnimation>
+			<!--
+			<Drive>
+				<StuffCategories>
+					<Stuff name = "Wood"/>
+					<Stuff name = "Plant"/>
+				</StuffCategories>
+				<CostStuffCount>10</CostStuffCount>
+				<Duration>0.05</Duration>
+				<DriveJustProdece>0</DriveJustProdece>
+				<RateMin>0</RateMin>
+				<RateMax>1</RateMax>
+			</Drive>
+			
+			<BeMade>
+				<WorkToMake>50</WorkToMake>
+				<Quality>0</Quality>
+				<ArtDesc></ArtDesc>
+				<Condition>
+						<Skills>
+							<Skill name = "sss" level="1"/>
+						</Skills>
+						<Researchs>
+							<Research name = "sss" level="1"/>
+						</Researchs>
+				</Condition>
+				<StuffCategories>
+					<Stuff name = "Metal"/>
+					<Stuff name = "Wood"/>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>1</CostStuffCount>
+				<CostItems>
+					<Item name = "wheat" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Produces>
+				<Produce>
+					<ThingDef>Item_HomeFood</ThingDef>
+					<Display>家常的食物</Display>
+					<Count>1</Count>
+				</Produce>
+			</Produces>
+			-->
+		</Building>
+		<!--
+		<Heat>
+			<Value>0</Value>
+			<Radius>0</Radius>
+			<Failing>0</Failing>
+			<FailRadius>0</FailRadius>
+		</Heat>
+		
+		<Light>
+			<Value>0</Value>
+			<Radius>0</Radius>
+			<Failing>0</Failing>
+			<FailRadius>0</FailRadius>
+		</Light>
+		-->
+<!--	<Element>
+		<Kind>None</Kind>
+		<Value>3</Value>         
+		<Radius>2</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>-->
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	</ThingDef>	
+	
+
+	<ThingDef Type="Building" Name="WeaponMaker_White" Parent="ProductionBase">	
+	<ThingName>太白锻铁台</ThingName>
+	<Desc>用来将金属锭锻造为各种金属器具的工作台。</Desc>
+	<TexPath>res/Sprs/buildingnew/building_Smithstation1a</TexPath>
+	<TexScale>0.7</TexScale>
+	<BlockLight>1</BlockLight>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<Beauty>5</Beauty>
+	<Collider>
+		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+		<Data>
+		[1,1],
+		[1,7],
+		</Data>
+		<OffsetGroup>
+			<li><x>0.5</x><y>-0.3</y></li>
+			<li><x>-0.42</x><y>-0.24</y></li>
+			<li><x>-0.46</x><y>1.17</y></li>
+			<li><x>0.41</x><y>0.71</y></li>
+		</OffsetGroup>
+		
+		<WorkOffset>
+			<li Index="0" X="0" Y="0" Ang="1" Dir="Down"/>
+			<li Index="0" X="-0.28" Y="0.4" Ang="1" Dir="Left"/>
+			<li Index="0" X="0.34" Y="0.1" Ang="1" Dir="Up"/>
+			<li Index="0" X="0.3" Y="-0.56" Ang="1" Dir="Right"/>
+		</WorkOffset>
+	</Collider>
+	<Building>
+		<Orientation>F,B,R</Orientation>
+		<BePackage>1</BePackage>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<CanMakeRoom>0</CanMakeRoom>
+		<WorkAnimation>iron</WorkAnimation>
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>16</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_RoughWoodBlock" count = "12"/>
+			</CostItems>
+		</BeMade>
+		<SnowRenderData>
+			<x>3.03</x>
+			<y>4.04</y>
+			<z>1</z>
+		</SnowRenderData>
+		<Drive>
+			<StuffCategories>
+				<Stuff name = "Wood"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<DrivingTexPath>res/Sprs/buildingnew/building_Smithstation1b</DrivingTexPath>
+			<CostStuffCount>15</CostStuffCount>
+			<Duration>0.05</Duration>
+			<DriveJustProdece>1</DriveJustProdece>
+			<RateMin>0</RateMin>
+			<RateMax>3</RateMax>
+		</Drive>
+		<ProducePriority>1</ProducePriority>
+		<ProduceKind>Smithing</ProduceKind>
+		<Produces>
+			<Produce>
+				<ThingDef>SP_Bow1</ThingDef>
+				<Display>捕兽弓</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WeaponBow</ThingDef>
+				<Display>弓</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WeaponKnife</ThingDef>
+				<Display>刀</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WeaponLance</ThingDef>
+				<Display>枪</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WeaponSword</ThingDef>
+				<Display>剑</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WeaponSwordSky</ThingDef>
+				<Display>天琊神劍</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WeaponHalbert</ThingDef>
+				<Display>锤</Display>
+				<Count>1</Count>
+			</Produce>
+			<Produce>
+				<ThingDef>Item_WeaponAxeRing</ThingDef>
+				<Display>环</Display>
+				<Count>1</Count>
+			</Produce>
+		</Produces>
+	</Building>
+	<Element>
+		<Kind>Huo</Kind>
+		<Value>8</Value>         
+		<Radius>3</Radius>
+		<Failing>0.8</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>
+	</ThingDef>
+	
+
+</List></ThingDefs>

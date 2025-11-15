@@ -1,0 +1,29 @@
+<Places><List>
+	
+	<Place Name="Place_WhiteSwordHill" Parent="Place_Level1Base">
+		<Location X="1324" Y="810"/>
+		<Icon>res/Sprs/map/map_shan02</Icon>
+		<DisplayName>論劍峰</DisplayName>
+		<Desc>修真界聖地之一，乃太白劍宗舉行每年一度太白論劍的地方。當年太白劍仙李白在此廣邀天下群雄，以手中青蓮神劍盡敗天下修真者，獲得了「太白劍仙」的名號。</Desc>
+		<UnLocked>1</UnLocked>
+		<Events><!-- 嗯-->
+
+			<li Name="Story" Rate="0.5"/>
+			<li Name="Treasure" Rate="0.5"/>
+			<li Name="Find" Rate="2.5"/>
+
+
+		</Events>
+		<Secret>
+			<li Name="Story" Rate="1"/>
+			<li Name="Secret" Rate="1"/>
+		</Secret>
+		<Produce>
+			<li>
+				<ThingDef>Item_Dan_White_Gold</ThingDef>
+				<Count>2</Count>
+				<Rate>1.0</Rate>
+			</li>
+		</Produce>
+	</Place>
+</List></Places>

@@ -1,0 +1,86 @@
+﻿<Magics><List>
+	<Magic Name="Magic_SQJuBao" Type="Class">
+		<DisplayName>聚宝功</DisplayName>
+		<Desc>消耗灵气获取稀有物品，需要当前灵气值大于一百万点才能使用。</Desc>
+		<Icon>res\Sprs\ui\icon_tianyan01</Icon>
+		<Kind>None</Kind>
+		<Param1>5</Param1>
+		<CostLing>0</CostLing>
+		<Penalty>0</Penalty>
+		<SelectMode>None</SelectMode>
+		<ClassName>SQJuBao</ClassName>
+	</Magic>
+	
+	<Magic Name="Magic_SQXiLian" Type="Class">
+		<DisplayName>天劫淬</DisplayName>
+		<Desc>消耗大量灵气将一件法宝原地渡劫三十六次。</Desc>
+		<Icon>res/Sprs/ui/icon_souhun01</Icon>
+		<Kind>None</Kind>
+		<Param1>15</Param1>
+		<CostLing>1000000</CostLing>
+		<CostAge>0</CostAge>
+		<Penalty>0</Penalty>
+		<SelectMode>Single</SelectMode>
+		<ClassName>SQXiLian</ClassName>
+		<SelectTarget>Item</SelectTarget>
+		<TargetDesc>请选择一件法宝。</TargetDesc>
+	</Magic>
+	
+	<Magic Name="Magic_SQXianKui" Type="Class">
+		<DisplayName>仙馈契</DisplayName>
+		<Desc>消耗大量灵气给予一名角色一百万点修为。</Desc>
+		<Icon>res\Sprs\ui\icon_sheshen01</Icon>
+		<Kind>None</Kind>
+		<Param1>15</Param1>
+		<CostLing>1000000</CostLing>
+		<CostAge>0</CostAge>
+		<Penalty>0</Penalty>
+		<SelectMode>Single</SelectMode>
+		<ClassName>SQXianKui</ClassName>
+		<SelectTarget>Npc</SelectTarget>
+		<TargetDesc>请选择一名角色。</TargetDesc>
+	</Magic>
+	
+	<Magic Name="Magic_SQReborn" Type="Class">
+		<DisplayName>苏生</DisplayName>
+		<Desc>消耗大量灵气将弥留状态的角色无损复活。</Desc>
+		<Icon>res\Sprs\ui\icon_yinshen01</Icon>
+		<Kind>Good</Kind>
+		<CastFavour>ThankTreat</CastFavour>
+		<TargetMood>BuildBody</TargetMood>
+		<Param1>30</Param1>
+		<CostLing>1000000</CostLing>
+		<Penalty>0</Penalty>
+		<SelectMode>Single</SelectMode>
+		<ClassName>SQReborn</ClassName>
+		<SelectTarget>Npc</SelectTarget>
+		<TargetDesc>请选择一名弥留的角色。</TargetDesc>
+	</Magic>
+	
+	<Magic Name="Magic_SQYouCui" Type="Class">
+		<DisplayName>通幽圣手</DisplayName>
+		<Desc>消耗大量灵气将一件物品变为圣物。</Desc>
+		<Icon>res\Sprs\ui\icon_xixing01</Icon>
+		<Kind>None</Kind>
+		<Param1>15</Param1>
+		<CostLing>1000000</CostLing>
+		<CostAge>0</CostAge>
+		<Penalty>0</Penalty>
+		<SelectMode>Single</SelectMode>
+		<ClassName>SQYouCui</ClassName>
+		<SelectTarget>Item</SelectTarget>
+		<TargetDesc>请选择一件物品。</TargetDesc>
+	</Magic>
+	
+	<Magic Name="Magic_SQBianHuan" Type="Class">
+		<DisplayName>遮天变</DisplayName>
+		<Desc>使太白劍訣傳人在可以外出历练的逍遥模式和可以进入地图的降临模式之间切换。</Desc>
+		<Icon>res/Sprs/ui/icon_tihu01</Icon>
+		<Kind>None</Kind>
+		<Param1>1</Param1>
+		<CostLing>0</CostLing>
+		<Penalty>0</Penalty>
+		<SelectMode>None</SelectMode>
+		<ClassName>SQBianHuan</ClassName>
+	</Magic>
+</List></Magics>

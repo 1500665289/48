@@ -1,0 +1,151 @@
+﻿<FightSkills><List>
+	<Skill Name="Gong_Chaos_DamageSkill">
+		<DisplayName>混元錘</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>None</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>1</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>500</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>26</MissileEffect>
+		<HitEffect>61</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="Gong_Chaos_FabaoSkill">
+		<DisplayName>五湖四海零丁洋</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>30</CD>
+		<LingCost>500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>10</Value>
+		<Value2>45</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>54</HitEffect>
+	</Skill>
+	
+	<Skill Name="Gong_Chaos_ZhenSkill">
+		<DisplayName>諸神道</DisplayName>
+		<HeadMsg>请选择一个敌方阵眼</HeadMsg>
+		<Tip>对敌方阵法造成大量稳定度伤害</Tip>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Script</Kind>
+		<ClassName>zhen_reducestability</ClassName>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>30</CD>
+		<LingCost>600</LingCost>
+		<SingAni>LJjineng10</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>20</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<Icon>res/Sprs/ui/icon_zhenfa01</Icon>
+		<Shape>Single</Shape>
+		<SelectType>Zhen</SelectType>
+		<HitEffect>48</HitEffect>
+	</Skill>
+	
+	<Skill Name="Gong_Chaos_HealthSkill"><!--恢复技能基础模板 --> 
+		<DisplayName>三山五岳十方天</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>30</CD>
+		<LingCost>400</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>3000</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>48</HitEffect>
+	</Skill>
+	
+	<Skill Name="Gong_Chaos_SkillSkill"><!--术法增强基础模板 --> 
+		<DisplayName>萬炎億火歸紫極</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>30</CD>
+		<LingCost>500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>10</Value>
+		<Value2>45</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>71</HitEffect>
+	</Skill>
+	
+	<Skill Name="Gong_Chaos_SheildSkill"><!--护体真强基础模板 --> 
+		<DisplayName>万世浮屠金晨曦</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>30</CD>
+		<LingCost>400</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>5</Value>
+		<Value2>45</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>63</HitEffect>
+	</Skill>
+	
+	<Skill Name="Gong_Chaos_DamageSkill2">
+		<DisplayName>盤古滅世斧</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Chaos</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>30</CD>
+		<LingCost>1000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>5000</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>26</MissileEffect>
+		<HitEffect>61</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+
+</List></FightSkills>

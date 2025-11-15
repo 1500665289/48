@@ -1,0 +1,197 @@
+<ThingDefs><List>
+	<ThingDef Type="Item" Name="WeaponBase" Parent="EquipmentBase">
+	
+	
+	
+	<MaxStack>1</MaxStack>
+	<TexPath></TexPath>
+	
+	<Desc>Desc.</Desc>
+	<Rate>1</Rate>
+	<Beauty>2</Beauty>
+	<MaxHitPoints>300</MaxHitPoints>
+	
+	<Flammability>
+		<Flammability>-0.2</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>0</BurningPoint>
+	</Flammability>
+	
+	<Item Kind="Equipment">
+		<NotFengshuiItem>0</NotFengshuiItem>
+		 <BeMade>
+			<WorkToMake>1500</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<!--<Condition>
+					<Skills>
+						<Skill name = "sss" level="1"/>
+					</Skills>
+					<Researchs>
+						<Research name = "sss" level="1"/>
+					</Researchs>
+			</Condition>-->
+			<StuffCategories>
+			<!--<Stuff name = "Metallic"/>-->
+			</StuffCategories>
+			<CostStuffCount>0</CostStuffCount>
+			<CostItems>
+				<!--<Item name = "wheat" count = "1"/>-->
+			</CostItems>
+		</BeMade> 
+		<Equip>
+			<Damage>10</Damage>
+			<AttackSpeed>1</AttackSpeed>
+			<AttackRange>2</AttackRange>
+		</Equip>
+		<Rot>
+			<RotSpeed>0</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>10</TempMin>
+			<LingMax>0</LingMax>
+		</Rot> 
+	</Item>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0.03</Attenuation>
+		<Absorption>0.4</Absorption>
+		<Accommodate>1</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+		<Value>3</Value>         
+		<Radius>2</Radius>
+		<Failing>1</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>
+	<!--<ThingDef Type="Item" Name="Item_TestKnife" Parent="WeaponBase">
+	<ThingName>测试弓箭</ThingName>
+	<TexPath>Item/TestWeapon</TexPath>
+	<MaxStack>1</MaxStack>
+	<Rate>3</Rate>		
+	<Item Lable="Weapon">
+		
+		<BeMade>
+			<WorkToMake>30</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>5</CostStuffCount>
+			<CostItems>
+					<Item name = "Item_IronBlock" count = "1"/>
+					<Item name = "Item_Wood" count = "1"/>
+					<Item name = "Item_Water" count = "10"/>
+			</CostItems>
+		</BeMade> 		
+		<Rot>
+			<RotSpeed>0.0005</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>10</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+		<Equip>
+			<Damage>10</Damage>
+			<AttackSpeed>1</AttackSpeed>
+			<AttackRange>10</AttackRange>
+			<WeaponKind>Bow</WeaponKind>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Bruise1" Rate="0.45"/>
+				<li PartKind="Flesh" Name="Bruise2" Rate="0.35"/>
+				<li PartKind="Bone" Name="Fracture1" Rate="0.2"/>
+			</AtkDamage>
+			<AttackSkill>NormalAttackMissile</AttackSkill>
+			<AtkAnis>
+				<li Name="GGpgong1" HitPoint="13"/>
+			</AtkAnis>
+			<ModPath>Mod/Prop/Weapon/weapon_gong2</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>-->
+	
+	
+	<ThingDef Type="Item" Name="Item_WeaponSwordSky" Parent="WeaponBase">
+	<ThingName>天琊神劍</ThingName>
+	<TexPath>res\Sprs\object\object_weaponjian01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>传说这法宝乃九天异铁落入凡间，枯心上人在北极冰原偶得，修炼而成。</Desc>
+	<Rate>12</Rate>
+	<Beauty>90</Beauty>
+	<Item Lable="Weapon">
+		<NotRandom>1</NotRandom>
+		<ElementKind>Chaos</ElementKind>
+		<FabaoSuffix>仙劍,靈劍,神劍</FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+			<li>Smooth2</li>
+		</PhysicalLables>
+		
+		<BeMade>
+			<WorkToMake>0</WorkToMake>
+			<Quality>100</Quality>a
+			<CostItems>
+					<Item name = "Item_StarEssenceBlock" count = "5"/>
+					<Item name = "Item_RoughWoodBlock" count = "1"/>
+					<Item name = "Item_Water" count = "100"/>
+			</CostItems>
+		</BeMade> 		
+		<!--<Rot>
+			<RotSpeed>0.0005</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>10</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>-->
+		<Equip>
+			<Damage>179</Damage>
+			<AttackSpeed>5.5</AttackSpeed>
+			<AttackRange>6.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut1" Rate="0.4"/>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.3"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.3"/>
+				<li PartName="Meridian" Name="HolyJudgement" Rate="0.3" DescTags="灵力侵染"/><!--灵力侵染为伤害说明，可以自己改-->
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="21"/>
+				<li Name="LJpugong2" HitPoint="19"/>
+				<li Name="LJpugong3" HitPoint="25"/>
+				<li Name="LJpugong4" HitPoint="19"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_jian1</ModPath>
+		</Equip>
+	</Item>
+	<Ling>
+		<AddionLing>35</AddionLing>
+		<AddionRadius>3</AddionRadius>
+		<AddionFailing>0.9</AddionFailing>
+		<AddionFailRadius>2</AddionFailRadius>
+		<Attenuation>0.1</Attenuation>
+		<Absorption>1</Absorption>
+		<Accommodate>100</Accommodate>
+	</Ling>
+	</ThingDef>
+	
+	<!--<ThingDef Type="Item"  Name="Art_Sword1" Parent="Item_WeaponSword">
+	<ThingName>狂战</ThingName>
+	<Desc>巧夺天工的神兵，融合制作者的心血与灵感而成。</Desc>
+	<Rate>4</Rate>
+	<Item>
+		<NotRandom>1</NotRandom>
+		<Equip>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="SwordBallDamage" Rate="1"/>
+			</AtkDamage>
+			<ModPath>Mod/Prop/Weapon/weapon_dao2</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>-->
+</List></ThingDefs>

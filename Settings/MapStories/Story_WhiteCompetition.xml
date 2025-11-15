@@ -1,0 +1,86 @@
+﻿<Stories><List>
+	<Story Name="Secrets_WhiteCompetition"  Parent="BaseFillingStory">
+		<DisplayName>太白論劍</DisplayName>
+		<Desc>[NAME]来到論劍峰之巅，众多高人将在此各展剑术格杀争锋。依照每年惯例，获胜者将获取一口寶劍以及《七杀剑诀》的真卷传承。</Desc>
+		<Selections>
+			<li>
+				<Display>参与斗剑</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetSkillLevel("Fabao") >= 15
+				]]>
+				</Condition>
+				<Tip>御器/机缘/境界</Tip>
+				<DisplayCondition>
+				<![CDATA[	
+					me:GetGLevel() > 6 and world:IsGongUnLocked("Gong_3_Jin") == false
+				]]>
+				</DisplayCondition>
+				<OKResult>
+				<![CDATA[	
+					local nY = 246 + math.floor(world.DayCount / 112)
+					if ((me:GetGLevel() - 6) * 2 + me:GetSkillLevel("Fabao") + me:GetLuck() - 15) >= me:RandomInt(10,30) then
+						me:AddMsg(XT("[NAME]在剑道上展現出高超的理解，并折服诸多与会之人，拔得头筹，名声大振。"));me:UnLockGong("Gong_3_Jin");me:AddSchoolScore(1, 1000);story:FinishSecret();world:NeedSave();me:AddTitle(XT("太白劍仙"),string.format(XT("第%s年，太白論劍斗剑优胜！"), tostring(nY)));
+						me:DropFabao(0,"Item_WeaponSword","Item_Other_TuJing","太白斬龍劍","太白劍宗的真傳弟子制式長劍，雖為制式，但其威力及品質已勝過不少法寶。",100,16,72);
+					else
+						me:AddMsg(XT("[NAME]虽然精通御剑之术，但是却在因心境波动而失手，最终遗憾出局。虽然如此，[NAME]也获益匪浅，并为宗门争取了不少名声。"));me:AddTreeExp(90000);me:AddSchoolScore(1, 100);story:FinishSecret();world:NeedSave();
+					end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+					me:AddMsg(XT("[NAME]试图参与太白論剑，然而他在御剑之道上的造诣不足，惨被淘汰。虽然无望仙缘，[NAME]依然在这个过程中感悟良多，获益匪浅。"));me:AddTreeExp(25000);story:FinishSecret();world:NeedSave();
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>参与斗剑</Display> 
+				<Condition>
+				<![CDATA[	
+				me:GetSkillLevel("Fabao") >= 15
+				]]>
+				</Condition>
+				<Tip>御器/机缘/境界</Tip>
+				<DisplayCondition>
+				<![CDATA[	
+					me:GetGLevel() > 6 and world:IsGongUnLocked("Gong_3_Jin") == true
+				]]>
+				</DisplayCondition>
+				<OKResult>
+				<![CDATA[	
+					local nY = 246 + math.floor(world.DayCount / 112)
+					if ((me:GetGLevel() - 6) * 2 + me:GetSkillLevel("Fabao") + me:GetLuck() - 15) >= me:RandomInt(10,30) then
+						me:AddMsg(XT("[NAME]在剑道上展現出高超的理解，并折服诸多与会之人，拔得头筹，名声大振。因[NAME]宗门已有《七杀剑诀》传承，此次优胜便选择了一颗天道神丹作为奖励。"));me:DropAwardItem("Item_Dan_TreeEXP", 1);me:AddSchoolScore(1, 1000);story:FinishSecret();world:NeedSave();me:AddTitle(XT("太白劍仙"),string.format(XT("第%s年，太白論劍斗剑优胜！"), tostring(nY)));
+						me:DropFabao(0,"Item_WeaponSword","Item_Other_TuJing","太白斬龍劍","太白劍宗的真傳弟子制式長劍，雖為制式，但其威力及品質已勝過不少法寶。",100,16,72);
+					else
+						me:AddMsg(XT("[NAME]虽然精通御剑之术，但是却在因心境波动而失手，最终遗憾出局。虽然如此，[NAME]也获益匪浅，并为宗门争取了不少名声。"));me:AddTreeExp(90000);me:AddSchoolScore(1, 100);story:FinishSecret();world:NeedSave();
+					end
+				]]>
+				</OKResult>
+				<NOResult>
+				<![CDATA[	
+					me:AddMsg(XT("[NAME]试图参与赤楼斗剑，然而他在御剑之道上的造诣不足，惨被淘汰。虽然无望仙缘，[NAME]依然在这个过程中感悟良多，获益匪浅。"));me:AddTreeExp(25000);story:FinishSecret();world:NeedSave();
+				]]>
+				</NOResult>
+			</li>
+			<li>
+				<Display>观摩学习</Display> 
+				<Tip>悟性/机缘</Tip>
+				<DisplayCondition>
+					<![CDATA[	
+					me:GetGLevel() <= 6
+					]]>
+				</DisplayCondition>
+				<OKResult>
+				<![CDATA[	
+				me:AddMsg(XT("[NAME]参与法会，观摩诸位大能论道，获益匪浅！"));
+				if me:GetLuck() >= me:RandomInt(1,10) then
+					me:AddMsg(XT("台上演法到激烈之处，[NAME]灵感一闪，竟然还领悟了一门秘籍！"));me:DropRandomItem("Esoterica");
+				end
+				me:AddPracticeResource("Stage",me:GetIntelligence() * 500);me:AddModifier("HotStory_FabaoLv");story:FinishSecret();
+				]]>
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+</List></Stories>

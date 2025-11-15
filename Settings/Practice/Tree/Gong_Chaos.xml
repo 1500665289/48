@@ -1,0 +1,695 @@
+﻿<SkillTree><List>	
+	
+	<Node Name="Gong_Chaos_a0" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_FabaoMake1</Esoterica>
+		<DisplayName>自在煉器訣</DisplayName>
+		<Level>Qi</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_a1" Gong="Gong_Chaos_None">
+		<Level>Qi</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_a2" Gong="Gong_Chaos_None">
+		<Level>Qi</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_a3" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_01</Esoterica>
+		<DisplayName>混元功</DisplayName>
+		<Level>Qi</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_a4" Gong="Gong_Chaos_None">
+		<Level>Qi</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_a5" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_ClosedDoor</Esoterica>
+		<DisplayName>心血簡</DisplayName>
+		<Level>Qi</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_a6" Gong="Gong_Chaos_None">
+		<Level>Qi</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="Gong_Chaos_a7" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_02</Esoterica>
+		<DisplayName>御空輕靈</DisplayName>
+		<Level>Qi</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_a8" Gong="Gong_Chaos_None">
+		<Level>Qi</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_a9" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_03</Esoterica>
+		<DisplayName>五行纵横</DisplayName>
+		<Level>Qi</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_a10" Gong="Gong_Chaos_None">
+		<Level>Qi</Level>
+		<Index>10</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_a11" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_04</Esoterica>
+		<DisplayName>破繭重生</DisplayName>
+		<Level>Qi</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_b0" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_PrayForWeather</Esoterica>
+		<DisplayName>降露術</DisplayName>
+		<Level>Dan1</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	<Node Name="Gong_Chaos_b1" Gong="Gong_Chaos_None">
+		<Level>Dan1</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="Gong_Chaos_b2" Gong="Gong_Chaos_None">
+		<Level>Dan1</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_b3" Gong="Gong_Chaos_None">
+		<Level>Dan1</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+
+	
+	<Node Name="Gong_Chaos_b4" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_Jin</Esoterica>
+		<DisplayName>金浮屠</DisplayName>
+		<Level>Dan1</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_b5" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_Mu</Esoterica>
+		<DisplayName>眾生林</DisplayName>
+		<Level>Dan1</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_b6" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_Shui</Esoterica>
+		<DisplayName>琉璃海</DisplayName>
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_b7" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_Huo</Esoterica>
+		<DisplayName>萬獄炎</DisplayName>
+		<Level>Dan1</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_b8" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_Tu</Esoterica>
+		<DisplayName>通天峰</DisplayName>
+		<Level>Dan1</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Gong_Chaos_b9" Gong="Gong_Chaos_None">
+		<Level>Dan1</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+		<Node Name="Gong_Chaos_b10" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_05</Esoterica>
+		<DisplayName>混元聖地</DisplayName>
+		<Level>Dan1</Level>
+		<Index>10</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+	<Node Name="Gong_Chaos_b11" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_06</Esoterica>
+		<DisplayName>混元戰陣</DisplayName>
+		<Level>Dan1</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+
+	
+
+	
+
+	
+	<Node Name="Gong_Chaos_c0" Gong="Gong_Chaos_None">
+		<Level>Dan2</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="Gong_Chaos_c1" Gong="Gong_Chaos_None">
+		<Level>Dan2</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="Gong_Chaos_c2" Gong="Gong_Chaos_None">
+		<Level>Dan2</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+	</Node>
+	
+	<Node Name="Gong_Chaos_c3" Gong="Gong_Chaos_None">
+		<Level>Dan2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+	</Node>
+	
+	
+	<Node Name="Gong_Chaos_c4" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_FightSkill_Jin</Esoterica>
+		<DisplayName>万世浮屠</DisplayName>
+		<Level>Dan2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_c5" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_FightSkill_Mu</Esoterica>
+		<DisplayName>諸神道</DisplayName>
+		<Level>Dan2</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_c6" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_FightSkill_Shui</Esoterica>
+		<DisplayName>五湖四海</DisplayName>
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_c7" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_FightSkill_Huo</Esoterica>
+		<DisplayName>萬炎億火</DisplayName>
+		<Level>Dan2</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_c8" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_FightSkill_Tu</Esoterica>
+		<DisplayName>三山五岳十方天</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_c9" Gong="Gong_Chaos_None">
+		<Level>Dan2</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_c10" Gong="Gong_Chaos_None">
+		<Level>Dan2</Level>
+		<Index>10</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_c11" Gong="Gong_Chaos_None">
+		<Level>Dan2</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_d0" Gong="Gong_Chaos_None">
+		<Level>God</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	<Node Name="Gong_Chaos_d1" Gong="Gong_Chaos_None">
+		<Level>God</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	<Node Name="Gong_Chaos_d2" Gong="Gong_Chaos_None">
+		<Level>God</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	<Node Name="Gong_Chaos_d3" Gong="Gong_Chaos_None">
+		<Level>God</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	<Node Name="Gong_Chaos_d4" Gong="Gong_Chaos_None">
+		<Level>God</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+
+	
+	<Node Name="Gong_Chaos_d5" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_Perception</Esoterica>
+		<DisplayName>一元夢</DisplayName>
+		<Level>God</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+
+
+	<Node Name="Gong_Chaos_d6" Gong="Gong_Chaos_None">
+		<Level>God</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_d7" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_07</Esoterica>
+		<DisplayName>紫星河</DisplayName>
+		<Level>God</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_d8" Gong="Gong_Chaos_None">
+		<Level>God</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_d9" Gong="Gong_Chaos_None">
+		<Level>God</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_d10" Gong="Gong_Chaos_None">
+		<Level>God</Level>
+		<Index>10</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_d11" Gong="Gong_Chaos_None">
+		<Level>God</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_e0" Gong="Gong_Chaos_None">
+		<Level>God2</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_e1" Gong="Gong_Chaos_None">
+		<Level>God2</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_e2" Gong="Gong_Chaos_None">
+		<Level>God2</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_e3" Gong="Gong_Chaos_None">
+		<Level>God2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_e4" Gong="Gong_Chaos_None">
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	
+	
+	<Node Name="Gong_Chaos_e5" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_Esoterica_YouCui</Esoterica>
+		<DisplayName>混元氣</DisplayName>
+		<Level>God2</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_e6" Gong="Gong_Chaos_None">
+		<Level>God2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_e7" Gong="Gong_Chaos_None">
+		<Esoterica>Gong_Chaos_FightSkill_None</Esoterica>
+		<DisplayName>盤古滅世斧</DisplayName>
+		<Level>God2</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_Chaos_e8" Gong="Gong_Chaos_None">
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_e9" Gong="Gong_Chaos_None">
+		<Level>God2</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_e10" Gong="Gong_Chaos_None">
+		<Level>God2</Level>
+		<Index>10</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_Chaos_e11" Gong="Gong_Chaos_None">
+		<Level>God2</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+</List></SkillTree> 

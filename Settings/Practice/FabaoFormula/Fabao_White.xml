@@ -1,0 +1,53 @@
+<FabaoFormulas><List>
+	<!-- 诛仙剑阵-->
+	<Fabao Name="MiBaoFormula_ZhuXianJian_White">
+		<Normal>0</Normal>
+		<ItemName>Item_MiBao_ZhuXianJian_White</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	
+	<!-- 诛仙剑阵-->
+	<Fabao Name="MiBaoFormula_LuXianJian_White">
+		<Normal>0</Normal>
+		<ItemName>Item_MiBao_LuXianJian_White</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	
+	<!-- 诛仙剑阵-->
+	<Fabao Name="MiBaoFormula_XianXianJian_White">
+		<Normal>0</Normal>
+		<ItemName>Item_MiBao_XianXianJian_White</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	
+	<!-- 诛仙剑阵-->
+	<Fabao Name="MiBaoFormula_JueXianJian_White">
+		<Normal>0</Normal>
+		<ItemName>Item_MiBao_JueXianJian_White</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	
+	<Fabao Name="MiBaoFormula_DesXianJian_White">
+		<Normal>0</Normal>
+		<ItemName>Item_MiBao_DesXianJian_White</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+	
+	<Fabao Name="MiBaoFormula_BlueGodSword">
+		<Normal>0</Normal>
+		<ItemName>Item_MiBao_BlueGodSword</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+</List></FabaoFormulas>

@@ -1,0 +1,199 @@
+﻿<FightSkills><List>
+	<Skill Name="Gong_SanQing_DamageSkill">
+		<DisplayName>真气爆破</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>None</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.5</SingTime>
+		<CD>1</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>200</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>26</MissileEffect>
+		<HitEffect>61</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="Gong_SanQing_FabaoSkill">
+		<DisplayName>魔剑斩妖</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>30</CD>
+		<LingCost>500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>10</Value>
+		<Value2>45</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>54</HitEffect>
+	</Skill>
+	
+	<Skill Name="Gong_SanQing_ZhenSkill">
+		<DisplayName>六合破阵</DisplayName>
+		<HeadMsg>请选择一个敌方阵眼</HeadMsg>
+		<Tip>对敌方阵法造成大量稳定度伤害</Tip>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Script</Kind>
+		<ClassName>zhen_reducestability</ClassName>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>30</CD>
+		<LingCost>600</LingCost>
+		<SingAni>LJjineng10</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>20</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<Icon>res/Sprs/ui/icon_zhenfa01</Icon>
+		<Shape>Single</Shape>
+		<SelectType>Zhen</SelectType>
+		<HitEffect>48</HitEffect>
+	</Skill>
+	
+	<Skill Name="Gong_SanQing_HealthSkill"><!--恢复技能基础模板 --> 
+		<DisplayName>慈航普度</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Health</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>30</CD>
+		<LingCost>400</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>3000</Value>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>48</HitEffect>
+	</Skill>
+	
+	<Skill Name="Gong_SanQing_SkillSkill"><!--术法增强基础模板 --> 
+		<DisplayName>焚神祝福</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Skill</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>30</CD>
+		<LingCost>500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng9</CastAni>
+		<Value>10</Value>
+		<Value2>45</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>71</HitEffect>
+	</Skill>
+	
+	<Skill Name="Gong_SanQing_SheildSkill"><!--护体真强基础模板 --> 
+		<DisplayName>太虚护佑</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>30</CD>
+		<LingCost>400</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>5</Value>
+		<Value2>45</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>63</HitEffect>
+	</Skill>
+	
+	<Skill Name="Gong_SanQing_DamageSkill2">
+		<DisplayName>鸿蒙神光</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Chaos</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>30</CD>
+		<LingCost>1000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>2000</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>26</MissileEffect>
+		<HitEffect>61</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="Gong_SanQing_FightSkill_Light"><!--伤害技能基础模板 --> 
+		<DisplayName>神剑御雷真诀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>7</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>2000</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>52</MissileEffect>
+		<HitEffect>56</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="Gong_SanQing_FightSkill_Sword"><!--伤害技能基础模板 --> 
+		<DisplayName>一劍斬破九重天</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>7</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng7</CastAni>
+		<Value>3000</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>52</MissileEffect>
+		<HitEffect>51</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+</List></FightSkills>

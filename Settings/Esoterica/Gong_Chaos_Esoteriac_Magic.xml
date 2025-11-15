@@ -1,0 +1,409 @@
+﻿<Esotericas><List>
+	<Esoterica Name="Gong_Chaos_Esoterica_01">
+		<DisplayName>混元功</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>練氣強生，為日後練就五法聖地作準備。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>Chaos</Element>
+		<EffectDesc>[size=10][color=#D06508]提高气感技能20级\n大幅提高灵气最大值\n大幅提高灵气恢复速度\n提高潜力[/color][/size]</EffectDesc>
+		<Modifier>Gong_Chaos_Esoterica_01</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_02">
+		<DisplayName>御空輕靈</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>缩地成寸，以为神行。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]大幅提高法宝速度\n大幅提高法宝转向速度\n大幅提高历练飞行速度[/color][/size]</EffectDesc>
+		<Modifier>Gong_Chaos_Esoterica_02</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_03">
+		<DisplayName>五行纵横</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>五行强调整体，旨在描述事物的运动形式以及转化关系。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]提高战斗技能20级\n大幅提高术法威力\n大幅降低术法释放时间\n大幅降低术法冷却时间\n大幅提高灵气护盾效果\n\n习得术法：混元錘[/color][/size]</EffectDesc>
+		<Modifier>Gong_Chaos_Esoterica_03</Modifier>
+		<Skills>
+			<li>Gong_Chaos_DamageSkill</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_04">
+		<DisplayName>破繭重生</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>於混沌繭之中以盤古斧破繭重生。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]大幅提高寿命\n大幅提高修炼速度\n大幅提高食物消耗速度\n提高饮气效率[/color][/size]</EffectDesc>
+		<Modifier>Gong_Chaos_Esoterica_04</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_05">
+		<DisplayName>混元聖地</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>以洞天法寶融入自身，再以天材地寶練成混元聖地。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]\n大幅提高灵气最大值\n大幅提高灵气恢复速度\n大幅提高御器威力\n大幅提高法宝灵气值\n大幅提高法宝灵气恢复速度\n提高潜力\n\n大幅提高术法威力\n大幅降低术法释放时间\n大幅降低术法冷却时间\n大幅提高灵气护盾效果\n习得神通：\n  造山术\n  开湖术\n  造陆术\n  造化灵土\n  造化灵池\n  造化沃土\n习得丹方：\n  灵源种\n  造化玉砂\n解锁建筑：\n  造化玉池[/color][/size]</EffectDesc>
+		<Magics>
+			<li>BuildMine</li>
+			<li>BuildSea</li>
+			<li>BuildLand</li>
+			<li>BuildLing</li>
+			<li>BuildLingWater</li>
+			<li>BuildFertileSoil</li>
+		</Magics>
+		<Buildings>
+			<li>SmallPool</li>
+		</Buildings>
+		<Dans>
+			<li>Dan_LingYuanSha</li>
+			<li>Dan_LingYuanZhong</li>
+		</Dans>
+		<Modifier>Gong_Chaos_Esoterica_05</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_06">
+		<DisplayName>混元戰陣</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>暫未開放！。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]暫未開放！[/color][/size]</EffectDesc>
+		<ZhenNodes>
+		</ZhenNodes>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_07">
+		<DisplayName>紫星河</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>順練五行，以混元五行之力借天上星河的力量。</Desc>
+		<GodSoulCount>24</GodSoulCount>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]大幅提高五维\n突破战斗技能极限5级\n突破气感技能极限10级\n突破御器技能极限5级\n突破术法技能极限20级\n突破护体技能极限5级\n突破炼丹技能极限5级\n突破炼器技能极限5级\n突破阵法技能极限5级\n增加二十四条元神分神\n法宝数量加五\n习得神通：伐毛洗髓\n习得神通：醍醐灌顶\n习得神通：再造形神\n习得神通：开天眼\n习得神通：凝珀诀\n习得神通：幽淬之法\n习得神通：灵淬之法[/color][/size]</EffectDesc>
+		<Modifier>Gong_Chaos_Esoterica_07</Modifier>
+		<Magics>
+			<li>Healing_Physique</li>
+			<li>Healing_Intelligence</li>
+			<li>Healing_Charisma</li>
+			<li>Healing_Perception</li>
+			<li>MakeSoulCrystal</li>
+			<li>SoulCrystalYouPowerUp</li>
+			<li>SoulCrystalLingPowerUp</li>
+		</Magics>
+	</Esoterica>
+	
+
+	<Esoterica Name="Gong_Chaos_Esoterica_Perception">
+		<DisplayName>一元夢</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>逆練五行，一念之間演化天地。</Desc>
+		<GodSoulCount>8</GodSoulCount>
+		<GLevel>God</GLevel>
+		<Element>Chaos</Element>
+		<EffectDesc>[size=10][color=#D06508]大幅提高灵气恢复速度\n不再睡眠\n破除地图迷雾\n大幅提高法宝炼制速度\n大幅提高法宝炼制成功率\n大幅提高法宝炼制品阶加成\n大幅提高法宝炼制质量\n提高神器练成几率\n增加二十四条元神分神\n\n习得 符图：\n太上通宝符\n五方灵宝符\n习得神通：炼制灵石\n习得神通：炼制灵晶不会感到疼痛\n习得神通：灵犀咒\n习得神通：心印诀\n习得神通：天魔舞\n习得神通：五印刻神\n提高心境至满值\n不再娱乐[/color][/size]</EffectDesc>
+		<Modifier>Gong_Chaos_Esoterica_Perception</Modifier>
+		<Magics>
+			<li>LingStoneMake</li>
+			<li>LingCrystalMake</li>
+			<li>Spell_FabaoMake_SuccessRateAddV</li>
+			<li>Spell_FabaoMake_LingInheritRateAddV</li>
+			<li>AbsorbGong_8</li>
+			<li>AbsorbGong_10</li>
+			<li>LingXiZhou</li>
+			<li>XinYinJue</li>
+			<li>TianMoWu</li>
+			<li>WuYinKeShen</li>
+		</Magics>
+	</Esoterica>
+	
+
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_FabaoMake1">
+		<DisplayName>混元小五行真我自在煉器訣</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_yumu01</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>以順逆五行相生相克之道來煉器。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]大幅提高法宝炼制速度\n大幅提高法宝炼制成功率\n大幅提高法宝炼制品阶加成\n大幅提高法宝炼制质量\n提高神器练成几率[/color][/size]</EffectDesc>
+		<Magics>
+			<li>PlantGrowUp_Gong9</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_PrayForWeather">
+		<DisplayName>降露術</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_quyun01</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>四时更变化，天道有亏盈。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：驱云诀\n习得神通：求雨术\n习得神通：甘霖术\n习得神通：暴雨术\n习得神通：焚风术\n习得神通：尘暴术\n习得神通：毒瘴术\n习得神通：雷暴术[/color][/size]</EffectDesc>
+		<Magics>
+			<li>PrayForSun</li>
+			<li>PrayForRain</li>
+			<li>BuildRain</li>
+			<li>PrayForRainstorm</li>
+			<li>PrayForFohn</li>
+			<li>PrayForDustStorm</li>
+			<li>PrayForMiasma</li>
+			<li>PrayForLightningStorm</li>
+		</Magics>
+	</Esoterica>
+	
+	
+
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_ClosedDoor">
+		<DisplayName>心血簡</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res\Sprs\ui\icon_ruding01</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>入定者，水火不能害，亦不命终。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：水镜观心定\n习得神通：玉清定境[/color][/size]</EffectDesc>
+		<Magics>
+			<li>ClosedDoor_Gong1</li>
+			<li>ClosedDoor_Gong4</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_AbsorbLing">
+		<DisplayName>集灵五法</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_lingxi01</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>从天地、草木、生灵乃至死尸之间吸取灵气。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：灵息诀\n习得神通：冥灵真法\n习得神通：天妖化血术\n习得神通：托体同山诀\n习得神通：吸星掌[/color][/size]</EffectDesc>
+		<Magics>
+			<li>AbsorbLing_Aoe</li>
+			<li>AbsorbLing_Live</li>
+			<li>AbsorbLing_Body</li>
+			<li>AbsorbLing_Thing</li>
+			<li>AbsorbLing_Item</li>
+		</Magics>
+	</Esoterica>
+	
+
+	
+	<Esoterica Name="Gong_Chaos_FightSkill_Jin">
+		<DisplayName>万世浮屠金晨曦</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>增强所有己方的灵气护盾效果。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Jin</Element>
+		<Type>None</Type>
+		<Exp>2000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得术法：万世浮屠金晨曦\n习得神通：北斗剑界[/color][/size]</EffectDesc>
+		<Skills>
+			<li>Gong_Chaos_SheildSkill</li>
+		</Skills>
+		<Magics>
+			<li>PrayForBeiDouJianJie_Gong8</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_FightSkill_Mu">
+		<DisplayName>諸神道</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>以眾生林中的諸神分身之力破開敵人法陣。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Mu</Element>
+		<Type>None</Type>
+		<Exp>2000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得术法：諸神道[/color][/size]</EffectDesc>
+		<Skills>
+			<li>Gong_Chaos_ZhenSkill</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_FightSkill_Shui">
+		<DisplayName>五湖四海零丁洋</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>以琉璃海的靈力推動法寶，形成法寶之海。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Shui</Element>
+		<Type>None</Type>
+		<Exp>2000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得术法：五湖四海零丁洋\n习得神通：九阴真水界[/color][/size]</EffectDesc>
+		<Skills>
+			<li>Gong_Chaos_FabaoSkill</li>
+		</Skills>
+		<Magics>
+			<li>PrayForZhenShuiJieJie_Gong1</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_FightSkill_Huo">
+		<DisplayName>萬炎億火歸紫極</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>借助天地间至阳之力，施展毁灭性的打击。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Huo</Element>
+		<Type>None</Type>
+		<Exp>2000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得术法：萬炎億火歸紫極\n习得神通：九阳神火界[/color][/size]</EffectDesc>
+		<Skills>
+			<li>Gong_Chaos_SkillSkill</li>
+		</Skills>
+		<Magics>
+			<li>PrayForZhenHuoJieJie_Gong10</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_FightSkill_Tu">
+		<DisplayName>三山五岳十方天</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>增强所有己方的灵气护盾效果。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>Tu</Element>
+		<Type>None</Type>
+		<Exp>2000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得术法：太虚护佑[/color][/size]</EffectDesc>
+		<Skills>
+			<li>Gong_Chaos_HealthSkill</li>
+		</Skills>
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_FightSkill_None">
+		<DisplayName>盤古滅世斧</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_shufa</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>以混元氣和盤古斧重演盤古開天之威，有滅世之力。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Chaos</Element>
+		<Type>None</Type>
+		<Exp>2000</Exp>
+		<EffectDesc>[size=10][color=#D06508]习得术法：鸿蒙灭绝神光[/color][/size]</EffectDesc>
+		<Skills>
+			<li>Gong_Chaos_DamageSkill2</li>
+		</Skills>
+	</Esoterica> 
+	
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_Jin">
+		<DisplayName>金浮屠</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>以金系法力和靈寶凝練高塔。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Jin</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]提高神识\n提高御器技能20级\n大幅提高御器威力\n大幅提高法宝灵气值\n大幅提高法宝灵气恢复速度\n大幅提高法宝速度\n大幅提高法宝转向速度\n大幅提高法宝拖尾长度[/color][/size]</EffectDesc>
+		<Modifier>Gong_Chaos_Esoterica_Jin</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_Mu">
+		<DisplayName>眾生林</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>以眾生林模擬眾生，驅神魔英雄為己用。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Mu</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]提高根骨\n提高炼器技能20级\n提高阵法技能20级\n大幅提高寿命[/color][/size]</EffectDesc>
+		<Modifier>Gong_Chaos_Esoterica_Mu</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_Shui">
+		<DisplayName>琉璃海</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_shentong</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>大海琉璃，殺機暗藏。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Shui</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]提高魅力\n大幅提高处世技能\n大幅提高雅艺技能\n大幅提高灵气最大值\n大幅提高精元转化率[/color][/size]</EffectDesc>
+		<Modifier>Gong_Chaos_Esoterica_Shui</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_Huo">
+		<DisplayName>萬獄炎</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>萬火焚天。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Huo</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]提高悟性\n提高术法技能20级\n提高炼丹技能20级\n大幅提高法术威力\n大幅降低法术调息间隔[/color][/size]</EffectDesc>
+		<Modifier>Gong_Chaos_Esoterica_Huo</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="Gong_Chaos_Esoterica_Tu">
+		<DisplayName>通天峰</DisplayName>
+		<Hide>1</Hide>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>以土系法力和靈寶凝練各種仙山神峰。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>Tu</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]提高机缘\n提高护体技能20级\n大幅提高灵气护盾效果\n大幅提高食物消耗速度\n大幅提高饮气效率[/color][/size]</EffectDesc>
+		<Modifier>Gong_Chaos_Esoterica_Tu</Modifier>	
+	</Esoterica>
+</List></Esotericas>
