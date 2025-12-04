@@ -5,23 +5,23 @@
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<Skills>
-			<li Name="Qi" Level="20"/>
+			<li Name="Qi" Level="2"/>
 		</Skills>
 		<Properties>
-			<li Name="NpcLingMaxValue" AddV="1500000"/>
-			<li Name="NpcLingMaxValue" AddP="150"/>
-			<li Name="LingAbsorbSpeed" AddP="5000"/>
+			<li Name="NpcLingMaxValue" AddV="15000"/>
+			<li Name="NpcLingMaxValue" AddP="15"/>
+			<li Name="LingAbsorbSpeed" AddP="5"/>
 			<li Name="PotentialOfBasepracticeAddValue" AddV="3"/>
-			<li Name="FabaoMake_SpeedAddV" AddV="50"/>
+			<li Name="FabaoMake_SpeedAddV" AddV="5"/>
 			<li Name="FabaoMake_SuccessRateAddV" AddV="10"/>
-			<li Name="FabaoMake_LingInheritRateAddV" AddV="40"/>
-			<li Name="FabaoMake_QualityAddV" AddV="10"/>
-			<li Name="FabaoMake_TwelveRateChance" AddP="100"/>
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="5"/>
-			<li Name="NpcFight_FabaoPowerAddP" AddP="1.5"/>	
-			<li Name="NpcFight_FabaoRepelDistanceAddV" AddP="1.5"/>	
-			<li Name="NpcFight_FabaoMaxLingAddP" AddP="100"/>
-			<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="2"/>
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="4"/>
+			<li Name="FabaoMake_QualityAddV" AddV="1"/>
+			<li Name="FabaoMake_TwelveRateChance" AddP="1"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="1"/>	
+			<li Name="NpcFight_FabaoRepelDistanceAddV" AddP="1"/>	
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="10"/>
+			<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="0.5"/>
 		</Properties>
 	</Modifier> 
 	
@@ -31,22 +31,22 @@
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<Skills>
-		<li Name="FightSkill" Level="20"/>
-		<li Name="Fabao" Level="20"/>
-		<li Name="Fight" Level="20"/>
-		<li Name="Fight" LevelOver="10"/>
-		<li Name="Fabao" LevelOver="10"/>
-		<li Name="FightSkill" LevelOver="10"/>
+		<li Name="FightSkill" Level="2"/>
+		<li Name="Fabao" Level="2"/>
+		<li Name="Fight" Level="2"/>
+		<li Name="Fight" LevelOver="1"/>
+		<li Name="Fabao" LevelOver="1"/>
+		<li Name="FightSkill" LevelOver="1"/>
 		</Skills>
 		<Properties>
-			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="1.5"/>
-			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="1.5"/>
-			<li Name="NpcFight_FabaoPowerAddP" AddP="1.5"/>	
-			<li Name="NpcFight_FabaoRepelDistanceAddV" AddP="1.5"/>	
-			<li Name="NpcFight_FabaoMaxLingAddP" AddP="100"/>
-			<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="2"/>
-			<li Name="WorldMapFlySpeedAddP" AddV="20"/>
-			<li Name="ExperiencePrestigeAddP" AddV="4"/>
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="1"/>
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="1"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="1"/>	
+			<li Name="NpcFight_FabaoRepelDistanceAddV" AddP="1"/>	
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="10"/>
+			<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="1"/>
+			<li Name="WorldMapFlySpeedAddP" AddV="2"/>
+			<li Name="ExperiencePrestigeAddP" AddV="1"/>
 		</Properties>
 	</Modifier> 
 	
@@ -56,13 +56,13 @@
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<Skills>
-			<li Name="Fight" Level="20"/>
+			<li Name="Fight" Level="2"/>
 		</Skills>
 		<Properties>
-			<li Name="NpcFight_SpellPowerAddP" AddP="100"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="10"/>
 			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.75"/>
 			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.75"/>
-			<li Name="NpcFight_ShieldConversionRateAddP" AddV="4"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="1"/>
 		</Properties>
 	</Modifier> 
 	
@@ -72,19 +72,19 @@
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<Properties>
-			<li Name="MaxAge" AddV="500"/>
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="5"/>
+			<li Name="MaxAge" AddV="50"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
 			<li Name="NutritionConsumeConstant" AddP="1"/>
 			<li Name="NutritionToJingYuanK" AddV="0.5"/>
-			<li Name="NutritionWaterAutoRecover" AddV="10"/>
+			<li Name="NutritionWaterAutoRecover" AddV="1"/>
 			<!--提高耐寒能力-->
 			<li Name="ComfyTMin" AddV="-100"/>
 			<li Name="ToleranceTMin" AddV="-100"/>
 			<!--提高耐热能力-->
 			<li Name="ComfyTMax" AddV="200"/>
-			<li Name="ToleranceTMax" AddV="2000"/>
-			<li Name="PracticeFoodRecoveryConstant" AddP="10"/>
-			<li Name="MagicDamageRecoveryPowerAddV" AddV="10"/>
+			<li Name="ToleranceTMax" AddV="200"/>
+			<li Name="PracticeFoodRecoveryConstant" AddP="1"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="1"/>
 		</Properties>
 	</Modifier> 
 	
@@ -94,9 +94,9 @@
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<Properties>
-			<li Name="NpcFight_FabaoPowerAddP" AddP="200"/>
-			<li Name="NpcFight_FabaoMaxLingAddP" AddP="100"/>
-			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="100"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="20"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="10"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="10"/>
 			<li Name="PotentialOfBasepracticeAddValue" AddV="1"/>
 		</Properties>
 	</Modifier> 
@@ -118,17 +118,17 @@
 		<Display>0</Display>
 		<BaseFive>2,2,2,2,2</BaseFive>
 		<Skills>
-			<li Name="Fight" LevelOver="10"/>
-			<li Name="Qi" LevelOver="10"/>
-			<li Name="Fabao" LevelOver="10"/>
-			<li Name="FightSkill" LevelOver="10"/>
-			<li Name="Barrier" LevelOver="10"/>
-			<li Name="Medicine" LevelOver="10"/>
-			<li Name="Manual" LevelOver="10"/>
-			<li Name="Zhen" LevelOver="10"/>
+			<li Name="Fight" LevelOver="2"/>
+			<li Name="Qi" LevelOver="2"/>
+			<li Name="Fabao" LevelOver="2"/>
+			<li Name="FightSkill" LevelOver="2"/>
+			<li Name="Barrier" LevelOver="2"/>
+			<li Name="Medicine" LevelOver="2"/>
+			<li Name="Manual" LevelOver="2"/>
+			<li Name="Zhen" LevelOver="2"/>
 		</Skills>
 		<Properties>
-			<li Name="NpcFight_FabaoNum" AddV="5"/>
+			<li Name="NpcFight_FabaoNum" AddV="1"/>
 		</Properties>
 	</Modifier> 
 	
@@ -139,7 +139,7 @@
 		<Display>0</Display>
 		<NoFog>1</NoFog>
 		<Properties>
-			<li Name="LingAbsorbSpeed" AddP="2000"/>
+			<li Name="LingAbsorbSpeed" AddP="20"/>
 			<li Name="FatigueConsumeConstant" AddV="-10"/>
 		</Properties>
 	</Modifier> 
@@ -150,11 +150,11 @@
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<Properties>
-			<li Name="FabaoMake_SpeedAddV" AddV="50"/>
-			<li Name="FabaoMake_SuccessRateAddV" AddV="10"/>
-			<li Name="FabaoMake_LingInheritRateAddV" AddV="20"/>
-			<li Name="FabaoMake_QualityAddV" AddV="10"/>
-			<li Name="FabaoMake_TwelveRateChance" AddP="100"/>
+			<li Name="FabaoMake_SpeedAddV" AddV="5"/>
+			<li Name="FabaoMake_SuccessRateAddV" AddV="1"/>
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="2"/>
+			<li Name="FabaoMake_QualityAddV" AddV="1"/>
+			<li Name="FabaoMake_TwelveRateChance" AddP="10"/>
 		</Properties>
 	</Modifier> 
 	
@@ -164,9 +164,9 @@
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<Properties>
-			<li Name="PainTolerance" AddV="10"/>
+			<li Name="PainTolerance" AddV="1"/>
 			<li Name="HappyConsumeConstant" AddV="-10"/>
-			<li Name="MindStateBaseValue" AddV="100"/>
+			<li Name="MindStateBaseValue" AddV="10"/>
 		</Properties>
 	</Modifier> 
 	
@@ -176,9 +176,9 @@
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<Properties>
-			<li Name="DanMake_YieldAddP" AddV="10"/>
-			<li Name="DanMake_SuccessRateAddV" AddV="10"/>
-			<li Name="DanMake_SpeedAddV" AddV="10"/>
+			<li Name="DanMake_YieldAddP" AddV="1"/>
+			<li Name="DanMake_SuccessRateAddV" AddV="1"/>
+			<li Name="DanMake_SpeedAddV" AddV="1"/>
 		</Properties>
 	</Modifier>
 	
@@ -188,12 +188,12 @@
 		<Duration>-1</Duration>
 		<Display>0</Display>
 		<Properties>
-			<li Name="MaxAge" AddV="500"/>
+			<li Name="MaxAge" AddV="50"/>
 			<li Name="ToleranceTMin" AddV="-270"/>
-			<li Name="ToleranceTMax" AddV="1200"/>
+			<li Name="ToleranceTMax" AddV="120"/>
 			<li Name="WaterConsumeConstant" AddP="-10"/>
-			<li Name="NutritionConsumeConstant" AddP="8"/>
-			<li Name="NutritionWaterAutoRecover" AddV="2"/>
+			<li Name="NutritionConsumeConstant" AddP="2"/>
+			<li Name="NutritionWaterAutoRecover" AddV="1"/>
 		</Properties>
 	</Modifier> 
 	
@@ -204,15 +204,15 @@
 		<Display>0</Display>
 		<BaseFive>1,0,0,0,0</BaseFive>
 		<Skills>
-			<li Name="Fabao" Level="20"/>
+			<li Name="Fabao" Level="2"/>
 		</Skills>
 		<Properties>
-			<li Name="NpcFight_FabaoPowerAddP" AddP="200"/>
-			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="100"/>
-			<li Name="NpcFight_FabaoMaxLingAddP" AddP="100"/>
-			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="2"/>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="20"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="10"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="10"/>
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="1"/>
 			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="1"/>
-			<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="2"/>
+			<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="1"/>
 		</Properties>
 	</Modifier> 
 	
@@ -223,11 +223,11 @@
 		<Display>0</Display>
 		<BaseFive>0,1,0,0,0</BaseFive>
 		<Skills>
-			<li Name="Manual" Level="20"/>
-			<li Name="Zhen" Level="20"/>
+			<li Name="Manual" Level="2"/>
+			<li Name="Zhen" Level="2"/>
 		</Skills>
 		<Properties>
-			<li Name="MaxAge" AddV="1000"/>
+			<li Name="MaxAge" AddV="100"/>
 		</Properties>
 	</Modifier> 
 	
@@ -238,12 +238,12 @@
 		<Display>0</Display>
 		<BaseFive>0,0,1,0,0</BaseFive>
 		<Skills>
-			<li Name="SocialContact" Level="20"/>
-			<li Name="Art" Level="20"/>
+			<li Name="SocialContact" Level="2"/>
+			<li Name="Art" Level="2"/>
 		</Skills>
 		<Properties>
-			<li Name="NpcLingMaxValue" AddV="1500000"/>
-			<li Name="NpcLingMaxValue" AddP="150"/>
+			<li Name="NpcLingMaxValue" AddV="15000"/>
+			<li Name="NpcLingMaxValue" AddP="15"/>
 			<li Name="NutritionToJingYuanK" AddV="0.025"/>
 		</Properties>
 	</Modifier> 
@@ -255,11 +255,11 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,1,0</BaseFive>
 		<Skills>
-			<li Name="FightSkill" Level="20"/>
-			<li Name="Medicine" Level="20"/>
+			<li Name="FightSkill" Level="2"/>
+			<li Name="Medicine" Level="2"/>
 		</Skills>
 		<Properties>
-			<li Name="NpcFight_SpellPowerAddP" AddP="150"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="15"/>
 			<li Name="NpcFight_SpellCoolDownAddP" AddV="-0.2"/> 
 		</Properties>
 	</Modifier> 
@@ -271,12 +271,12 @@
 		<Display>0</Display>
 		<BaseFive>0,0,0,0,1</BaseFive>
 		<Skills>
-			<li Name="Barrier" Level="20"/>
+			<li Name="Barrier" Level="2"/>
 		</Skills>
 		<Properties>
-			<li Name="NpcFight_ShieldConversionRateAddP" AddV="8"/>
-			<li Name="NutritionConsumeConstant" AddP="12"/>
-			<li Name="NutritionWaterAutoRecover" AddV="3"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="2"/>
+			<li Name="NutritionConsumeConstant" AddP="2"/>
+			<li Name="NutritionWaterAutoRecover" AddV="1"/>
 		</Properties>
 	</Modifier> 
 </List></ModifierDefs>

@@ -4,7 +4,7 @@
 		<MaxStack>500</MaxStack>
 		<ThingName>太白金丹</ThingName>
 		<TexPath>res\Sprs\object\object_jianwan01</TexPath>
-		<Desc>論劍峰的天地靈氣自然形成，寿命增加三甲子，天谴减10，道行减50，根本灵气增加1000，根本灵气增加100%，精元增加1000，可一直服用。</Desc>	
+		<Desc>論劍峰的天地靈氣自然形成，寿命增加80，根本灵气增加100%，增加氣感，增加五維持续2800S。</Desc>	
 		<Rate>9</Rate>	
 		<Beauty>15</Beauty>
 		<ElementKind>None</ElementKind>
@@ -24,7 +24,7 @@
 			<BeMade>
 				<WorkToMake>400</WorkToMake>
 				<CostItems>
-					<Item name = "Item_LingStone" count = "1"/>
+					<Item name = "Item_LingStone" count = "10000"/>
 				</CostItems>
 			</BeMade> 
 		</Item>

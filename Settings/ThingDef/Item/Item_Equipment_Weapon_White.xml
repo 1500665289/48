@@ -138,9 +138,9 @@
 			<WorkToMake>0</WorkToMake>
 			<Quality>100</Quality>a
 			<CostItems>
-					<Item name = "Item_StarEssenceBlock" count = "5"/>
-					<Item name = "Item_RoughWoodBlock" count = "1"/>
-					<Item name = "Item_Water" count = "100"/>
+					<Item name = "Item_StarEssenceBlock" count = "500"/>
+					<Item name = "Item_RoughWoodBlock" count = "1000"/>
+					<Item name = "Item_Water" count = "10000"/>
 			</CostItems>
 		</BeMade> 		
 		<!--<Rot>
@@ -150,9 +150,9 @@
 			<LingMax>0</LingMax>
 		</Rot>-->
 		<Equip>
-			<Damage>179</Damage>
-			<AttackSpeed>5.5</AttackSpeed>
-			<AttackRange>6.5</AttackRange>
+			<Damage>109</Damage>
+			<AttackSpeed>2.5</AttackSpeed>
+			<AttackRange>2.5</AttackRange>
 			<AtkDamage>
 				<li PartKind="Flesh" Name="Cut1" Rate="0.4"/>
 				<li PartKind="Flesh" Name="Cut2" Rate="0.3"/>

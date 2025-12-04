@@ -17,7 +17,7 @@
 		<Icon>res/Sprs/ui/icon_souhun01</Icon>
 		<Kind>None</Kind>
 		<Param1>15</Param1>
-		<CostLing>1000000</CostLing>
+		<CostLing>2000000</CostLing>
 		<CostAge>0</CostAge>
 		<Penalty>0</Penalty>
 		<SelectMode>Single</SelectMode>
@@ -28,11 +28,11 @@
 	
 	<Magic Name="Magic_SQXianKui" Type="Class">
 		<DisplayName>仙馈契</DisplayName>
-		<Desc>消耗大量灵气给予一名角色一百万点修为。</Desc>
+		<Desc>消耗大量灵气给予一名角色一万点修为。</Desc>
 		<Icon>res\Sprs\ui\icon_sheshen01</Icon>
 		<Kind>None</Kind>
 		<Param1>15</Param1>
-		<CostLing>1000000</CostLing>
+		<CostLing>2000000</CostLing>
 		<CostAge>0</CostAge>
 		<Penalty>0</Penalty>
 		<SelectMode>Single</SelectMode>
@@ -49,7 +49,7 @@
 		<CastFavour>ThankTreat</CastFavour>
 		<TargetMood>BuildBody</TargetMood>
 		<Param1>30</Param1>
-		<CostLing>1000000</CostLing>
+		<CostLing>5000000</CostLing>
 		<Penalty>0</Penalty>
 		<SelectMode>Single</SelectMode>
 		<ClassName>SQReborn</ClassName>
@@ -63,7 +63,7 @@
 		<Icon>res\Sprs\ui\icon_xixing01</Icon>
 		<Kind>None</Kind>
 		<Param1>15</Param1>
-		<CostLing>1000000</CostLing>
+		<CostLing>5000000</CostLing>
 		<CostAge>0</CostAge>
 		<Penalty>0</Penalty>
 		<SelectMode>Single</SelectMode>

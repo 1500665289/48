@@ -84,7 +84,7 @@
 		</BeMade> 
 		<Fabao>
 		    <ActiveCondition>
-			    <Condition eventid = "KillCount" des = "殺死五個生靈" needcount = "5"/>
+			    <Condition eventid = "KillCount" des = "殺死五百個生靈" needcount = "500"/>
 			</ActiveCondition>
 			<SpecialAbility>
 			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.5" nParam1="2" Desc="与法宝拼斗时，造成1.5倍伤害。"/>
@@ -126,7 +126,7 @@
 		</BeMade> 
 		<Fabao>
 		    <ActiveCondition>
-			    <Condition eventid = "KillCount" des = "殺死五個生靈" needcount = "5"/>
+			    <Condition eventid = "KillCount" des = "殺死五百個生靈" needcount = "500"/>
 			</ActiveCondition>
 			<SpecialAbility>
 			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.5" nParam1="2" Desc="与法宝拼斗时，造成1.5倍伤害。"/>
@@ -169,7 +169,7 @@
 		</BeMade> 
 		<Fabao>
 		    <ActiveCondition>
-			    <Condition eventid = "KillCount" des = "殺死五個生靈" needcount = "5"/>
+			    <Condition eventid = "KillCount" des = "殺死五百個生靈" needcount = "500"/>
 			</ActiveCondition>
 			<SpecialAbility>
 			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.5" nParam1="2" Desc="与法宝拼斗时，造成1.5倍伤害。"/>
@@ -212,7 +212,7 @@
 		</BeMade> 
 		<Fabao>
 		    <ActiveCondition>
-			    <Condition eventid = "KillCount" des = "殺死五個生靈" needcount = "5"/>
+			    <Condition eventid = "KillCount" des = "殺死五百個生靈" needcount = "500"/>
 			</ActiveCondition>
 			<SpecialAbility>
 			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.5" nParam1="2" Desc="与法宝拼斗时，造成1.5倍伤害。"/>
@@ -257,7 +257,7 @@
 		</BeMade> 
 		<Fabao>
 		    <ActiveCondition>
-			    <Condition eventid = "KillCount" des = "殺死五個生靈" needcount = "5"/>
+			    <Condition eventid = "KillCount" des = "殺死五百個生靈" needcount = "500"/>
 			</ActiveCondition>
 			<SpecialAbility>
 			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="0.5" nParam1="2" Desc="与法宝拼斗时，造成1.5倍伤害。"/>

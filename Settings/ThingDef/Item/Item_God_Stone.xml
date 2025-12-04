@@ -25,7 +25,8 @@
 			<Quality>0</Quality>
 			<ArtDesc></ArtDesc>
 			<CostItems>
-				<Item name = "Item_LingCrystal" count = "3"/>
+				<Item name = "Item_LingCrystal" count = "3000"/>
+                   <Item name = "Item_RoughWoodBlock" count = "1000"/>
 			</CostItems>
 		</BeMade> 
 		<Equip>

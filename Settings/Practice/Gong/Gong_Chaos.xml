@@ -21,7 +21,7 @@
 			<Stage Name="Stage1" Level="1">
 				<DisplayName>練氣境</DisplayName>
 				<Desc></Desc>
-				<Value>5000</Value>
+				<Value>50000</Value>
 				<Necks>
 					<Neck Location="0.25" Kind="Chance">
 						<DisplayName>引气</DisplayName>
@@ -56,7 +56,7 @@
 			<Stage Name="Stage2" Level="3">
 				<DisplayName>筑基期</DisplayName>
 				<Desc></Desc>
-				<Value>20000</Value>
+				<Value>200000</Value>
 				<Necks>
 					<Neck Location="0.25" Kind="Chance">
 						<DisplayName>塑体</DisplayName>
@@ -85,7 +85,7 @@
 			<Stage Name="Stage3" Level="6">
 				<DisplayName>金丹期</DisplayName>
 				<Desc></Desc>
-				<Value>100000</Value>
+				<Value>1000000</Value>
 				<Necks>
 					<Neck Location="0.25" Kind="Chance">
 						<DisplayName>结丹</DisplayName>
@@ -112,7 +112,7 @@
 			<Stage Name="Stage4" Level="9">
 				<DisplayName>元婴期</DisplayName>
 				<Desc></Desc>
-				<Value>500000</Value>
+				<Value>5000000</Value>
 				<Necks>
 					
 					<Neck Location="0.25" Kind="Chance">
@@ -142,7 +142,7 @@
 			<Stage Name="Stage5" Level="11">
 				<DisplayName>返虚期</DisplayName>
 				<Desc></Desc>
-				<Value>3000000</Value>
+				<Value>30000000</Value>
 				<Necks>
 					<Neck Location="0.25" Kind="Chance">
 						<DisplayName>入虚</DisplayName>
@@ -171,7 +171,7 @@
 			<Stage Name="Stage5" Level="12">
 				<DisplayName>地仙</DisplayName>
 				<Desc></Desc>
-				<Value>10000000</Value>
+				<Value>100000000</Value>
 				<Necks>
 					<Neck Location="1" Kind="God">
 						<DisplayName>一氣生萬法</DisplayName>

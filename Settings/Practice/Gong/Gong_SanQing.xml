@@ -21,7 +21,7 @@
 			<Stage Name="Stage1" Level="1">
 				<DisplayName>劍童</DisplayName>
 				<Desc></Desc>
-				<Value>5000</Value>
+				<Value>50000</Value>
 				<Necks>
 					<Neck Location="0.25" Kind="Chance">
 						<DisplayName>劍術初成</DisplayName>
@@ -52,7 +52,7 @@
 			<Stage Name="Stage2" Level="3">
 				<DisplayName>劍徒</DisplayName>
 				<Desc></Desc>
-				<Value>20000</Value>
+				<Value>200000</Value>
 				<Necks>
 					<Neck Location="0.25" Kind="Chance">
 						<DisplayName>以劍養氣</DisplayName>
@@ -84,7 +84,7 @@
 			<Stage Name="Stage3" Level="6">
 				<DisplayName>劍客</DisplayName>
 				<Desc></Desc>
-				<Value>100000</Value>
+				<Value>1000000</Value>
 				<Necks>
 					<Neck Location="0.25" Kind="Chance">
 						<DisplayName>劍意初生</DisplayName>
@@ -114,7 +114,7 @@
 			<Stage Name="Stage4" Level="9">
 				<DisplayName>劍聖</DisplayName>
 				<Desc></Desc>
-				<Value>500000</Value>
+				<Value>5000000</Value>
 				<Necks>
 					
 					<Neck Location="0.25" Kind="Thunder">
@@ -147,7 +147,7 @@
 			<Stage Name="Stage5" Level="11">
 				<DisplayName>劍神</DisplayName>
 				<Desc></Desc>
-				<Value>3000000</Value>
+				<Value>30000000</Value>
 				<Necks>
 					<Neck Location="0.25" Kind="Thunder">
 						<DisplayName>以劍入道</DisplayName>
@@ -179,7 +179,7 @@
 			<Stage Name="Stage5" Level="12">
 				<DisplayName>劍仙</DisplayName>
 				<Desc></Desc>
-				<Value>10000000</Value>
+				<Value>100000000</Value>
 				<Necks>
 					<Neck Location="1" Kind="God">
 						<DisplayName>一劍斬破九重天</DisplayName>

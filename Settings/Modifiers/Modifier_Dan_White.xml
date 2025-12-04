@@ -1,18 +1,17 @@
 <ModifierDefs><List>
 	<Modifier Name="Dan_White_Gold" Type="Normal">
 		<DisplayName>太白金丹</DisplayName>
-		<Desc>寿命增加三甲子，根本灵气增加1000，根本灵气增加100%，增加氣感，增加五維。</Desc>
+		<Desc>寿命增加80，根本灵气增加100%，增加氣感，增加五維。</Desc>
 		<MaxStack>0</MaxStack>
-		<Duration>-1</Duration>
+		<Duration>2800</Duration>
 		<Display>0</Display>
 		<BaseFive>1,1,1,1,1</BaseFive>
 		<Skills>
-			<li Name="Qi" Level="6"/>
+			<li Name="Qi" Level="3"/>
 		</Skills>
 		<Properties>
-			<li Name="MaxAge" AddV="180"/>
+			<li Name="MaxAge" AddV="80"/>
 			<li Name="NpcLingMaxValue" BAddP="1"/>
-			<li Name="NpcLingMaxValue" BAddV="1000"/>
 		</Properties>
 	</Modifier> 
 

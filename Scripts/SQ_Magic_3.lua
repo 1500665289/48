@@ -47,7 +47,7 @@ end
 function tbMagic:MagicLeave(success)
 	if success == true then		
 		local npc = ThingMgr:FindThingByID(self.targetId);
-		npc.PropertyMgr.Practice:AddPractice(1000000);
+		npc.PropertyMgr.Practice:AddPractice(10000);
 	end
 end
 
