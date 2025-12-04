@@ -16,7 +16,7 @@
 			</PhysicalLables>
 			<Food>
 				<EatDirectable>1</EatDirectable>
-				<PracticeNutrition>1000</PracticeNutrition>
+				<PracticeNutrition>100</PracticeNutrition>
 			</Food>	
 			<Elixir>
 				<Modifier>Dan_White_Gold</Modifier>
