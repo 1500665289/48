@@ -22,7 +22,7 @@
 			<li>
 				<ThingDef>Item_Dan_White_Gold</ThingDef>
 				<Count>1</Count>
-				<Rate>0.1</Rate>
+				<Rate>0.2</Rate>
 			</li>
        <li>
 				<ThingDef>Item_Ginkgo</ThingDef>
@@ -32,7 +32,7 @@
        <li>
 				<ThingDef>Item_LingStone</ThingDef>
 				<Count>10</Count>
-				<Rate>0.2</Rate>
+				<Rate>0.4</Rate>
 			</li>
 
 		</Produce>
