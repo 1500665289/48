@@ -23,7 +23,7 @@
 			</Properties>
 		</ModifierDef>
 		<Items>
-	      <li Name= "Item_God_Stone" Count="20"/>
+	      <li Name= "Item_God_Stone" Count="2"/>
 		  <li Name= "SP_Sword3" Stuff="Item_Other_BuZhiMing" Quality="100"/>
 		  <li Name= "Item_LunHui_PerfectWorld" Quality="100"/>
 		  <li Name = "Item_StarEssenceBlock" Count = "50"/>
