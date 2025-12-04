@@ -2,9 +2,10 @@
 	<Modifier Name="Dan_White_Gold" Type="Normal">
 		<DisplayName>太白金丹</DisplayName>
 		<Desc>寿命增加80，根本灵气增加100%，增加氣感，增加五維。</Desc>
-		<MaxStack>0</MaxStack>
+		<MaxStack>1</MaxStack>
 		<Duration>2800</Duration>
-		<Display>0</Display>
+		<Display>1</Display>
+    <Sync>1</Sync>
 		<BaseFive>1,1,1,1,1</BaseFive>
 		<Skills>
 			<li Name="Qi" Level="3"/>
