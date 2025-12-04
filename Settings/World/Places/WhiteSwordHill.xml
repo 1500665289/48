@@ -22,13 +22,19 @@
 			<li>
 				<ThingDef>Item_Dan_White_Gold</ThingDef>
 				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+       <li>
+				<ThingDef>Item_Ginkgo</ThingDef>
+				<Count>20</Count>
 				<Rate>0.5</Rate>
 			</li>
        <li>
 				<ThingDef>Item_LingStone</ThingDef>
 				<Count>10</Count>
-				<Rate>0.5</Rate>
+				<Rate>0.2</Rate>
 			</li>
+
 		</Produce>
 	</Place>
 </List></Places>
