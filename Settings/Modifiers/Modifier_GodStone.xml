@@ -26,7 +26,7 @@
 			<li Name="NutritionConsumeConstant" AddP="-0.5"/>
 			<li Name="WaterConsumeConstant" AddP="-0.5"/>
 			<!--让人心情轻微变好，且降低娱乐值的衰减速度。-->
-			<li Name="HappyConsumeConstant" AddP="-1"/>
+			<li Name="HappyConsumeConstant" AddP="-2"/>
 			<li Name="BaseEmotionAddV" AddV="20"/>
 			<!--提高战斗能力，提高疼痛忍耐。-->
 			<li Name="NpcFight_BaseHitChance" AddV="1"/>
@@ -52,7 +52,7 @@
 			<!--可以提高突破瓶颈的概率。-->
 			<li Name="PracticeRateAddPFromDan" AddP="1"/>
 			<!--可以提高修炼速度。-->
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0"/>
 			<!--可以提高炼制法宝成功率-->
 			<li Name="FabaoMake_SuccessRateAddV" AddV="1"/>
 			<!--可以提高炼制法宝的灵力。-->
