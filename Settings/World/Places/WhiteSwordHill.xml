@@ -21,8 +21,8 @@
 		<Produce>
 			<li>
 				<ThingDef>Item_Dan_White_Gold</ThingDef>
-				<Count>2</Count>
-				<Rate>1.0</Rate>
+				<Count>1</Count>
+				<Rate>0.5</Rate>
 			</li>
 		</Produce>
 	</Place>
