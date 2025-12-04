@@ -1,9 +1,9 @@
-﻿<ModifierDefs><List>
+<ModifierDefs><List>
 	<Modifier Name="SysTool_SP_GodStone" Type="Normal">
 		<DisplayName>真仙石</DisplayName>
 		<Desc>受真仙石影响，无欲无求。</Desc>
 		<MaxStack>1</MaxStack>
-		<Duration>0</Duration>
+		<Duration>-1</Duration>
 		<Display>1</Display>
 		<Properties>
 			<li Name="WaterConsumeConstant" AddP="-10"/>
@@ -52,7 +52,7 @@
 			<!--可以提高突破瓶颈的概率。-->
 			<li Name="PracticeRateAddPFromDan" AddP="1"/>
 			<!--可以提高修炼速度。-->
-			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/>
 			<!--可以提高炼制法宝成功率-->
 			<li Name="FabaoMake_SuccessRateAddV" AddV="1"/>
 			<!--可以提高炼制法宝的灵力。-->
