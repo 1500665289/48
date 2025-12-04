@@ -1,4 +1,4 @@
-﻿<ThingDefs><List>
+<ThingDefs><List>
 	<ThingDef Type="Building" Name="ProductionBase" Parent="BuildingBase">
 		<TexPath></TexPath>
 		<ThingName></ThingName>
@@ -141,7 +141,7 @@
 				<Stuff name = "MetalBlock"/>
 				<Stuff name = "RockBlock"/>
 			</StuffCategories>
-			<CostStuffCount>16</CostStuffCount>
+			<CostStuffCount>1600</CostStuffCount>
 			<CostItems>
 					<Item name = "Item_RoughWoodBlock" count = "12"/>
 			</CostItems>
