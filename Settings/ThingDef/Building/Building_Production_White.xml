@@ -102,18 +102,21 @@
 	<ThingDef Type="Building" Name="WeaponMaker_White" Parent="ProductionBase">	
 	<ThingName>太白锻铁台</ThingName>
 	<Desc>用来将金属锭锻造为各种金属器具的工作台。</Desc>
-	<TexPath>res/Sprs/buildingnew/building_Smithstation1a</TexPath>
-	<TexScale>0.7</TexScale>
-	<BlockLight>1</BlockLight>
-	<SelectAble>1</SelectAble>	
-	<CastShadow>1</CastShadow>
-	<Beauty>5</Beauty>
+	<TexPath>res/Sprs/buildingnew/building_bonfire1b</TexPath>
+		<SelectAble>1</SelectAble>
+		<CastShadow>1</CastShadow>
+		<BlockLight>1</BlockLight>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Beauty>100</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<ColliderKind>NoPass</ColliderKind>
 	<Collider>
 		<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
-		<Data>
-		[1,1],
-		[1,7],
-		</Data>
+			<Data>
+				[0,4,0],
+				[4,3,4],
+				[0,4,0]
+			</Data>
 		<OffsetGroup>
 			<li><x>0.5</x><y>-0.3</y></li>
 			<li><x>-0.42</x><y>-0.24</y></li>
@@ -121,12 +124,12 @@
 			<li><x>0.41</x><y>0.71</y></li>
 		</OffsetGroup>
 		
-		<WorkOffset>
-			<li Index="0" X="0" Y="0" Ang="1" Dir="Down"/>
-			<li Index="0" X="-0.28" Y="0.4" Ang="1" Dir="Left"/>
-			<li Index="0" X="0.34" Y="0.1" Ang="1" Dir="Up"/>
-			<li Index="0" X="0.3" Y="-0.56" Ang="1" Dir="Right"/>
-		</WorkOffset>
+			<WorkOffset>
+				<li Index="0"  X="-0.05" Y="-0.16" Ang="180"/>
+				<li Index="1"  X="0.2" Y="0" Ang="90"/>
+				<li Index="2"  X="-0.2" Y="0" Ang="-90"/>
+				<li Index="3"  X="0" Y="0.45" Ang="1"/>
+			</WorkOffset>
 	</Collider>
 	<Building>
 		<Orientation>F,B,R</Orientation>
