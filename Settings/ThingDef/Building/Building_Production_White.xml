@@ -37,7 +37,7 @@
 		<ThingDef Type="Building" Name="WeaponMaker_White" Parent="ProductionBase">
 			<ThingName>太白锻铁台</ThingName>
 			<Desc>用来将金属锭锻造为各种金属器具的工作台。</Desc>
-			<TexPath>res/Sprs/buildingnew/building_bonfire1b</TexPath>
+			<TexPath>res\Sprs\buildingnew\building_bonfire1b</TexPath>
 			<SelectAble>1</SelectAble>
 			<CastShadow>1</CastShadow>
 			<BlockLight>1</BlockLight>
