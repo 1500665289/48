@@ -1,5 +1,105 @@
 <ThingDefs>
 	<List>
+
+	<ThingDef Type="Building" Name="ProductionBase" Parent="BuildingBase">
+		<TexPath></TexPath>
+		<ThingName></ThingName>
+		<Desc>ProductionBase</Desc>
+		
+		<BlockLight>1</BlockLight>
+		<Beauty>2</Beauty>
+		<UseHitPoints>1</UseHitPoints>
+		<MaxHitPoints>500</MaxHitPoints>
+		<VisionRadius>10</VisionRadius>
+		
+		<ShadowSize>
+			<x>1</x>
+			<y>0.8</y>
+		</ShadowSize>
+		<Building>
+			<RoomKind>WorkRoom</RoomKind>
+			<BePackage>0</BePackage>
+			<ShowFree>1</ShowFree>
+			<SelectProduceStuff>1</SelectProduceStuff>
+			<WorkAnimation>assemble</WorkAnimation>
+			<!--
+			<Drive>
+				<StuffCategories>
+					<Stuff name = "Wood"/>
+					<Stuff name = "Plant"/>
+				</StuffCategories>
+				<CostStuffCount>10</CostStuffCount>
+				<Duration>0.05</Duration>
+				<DriveJustProdece>0</DriveJustProdece>
+				<RateMin>0</RateMin>
+				<RateMax>1</RateMax>
+			</Drive>
+			
+			<BeMade>
+				<WorkToMake>50</WorkToMake>
+				<Quality>0</Quality>
+				<ArtDesc></ArtDesc>
+				<Condition>
+						<Skills>
+							<Skill name = "sss" level="1"/>
+						</Skills>
+						<Researchs>
+							<Research name = "sss" level="1"/>
+						</Researchs>
+				</Condition>
+				<StuffCategories>
+					<Stuff name = "Metal"/>
+					<Stuff name = "Wood"/>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>1</CostStuffCount>
+				<CostItems>
+					<Item name = "wheat" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Produces>
+				<Produce>
+					<ThingDef>Item_HomeFood</ThingDef>
+					<Display>家常的食物</Display>
+					<Count>1</Count>
+				</Produce>
+			</Produces>
+			-->
+		</Building>
+		<!--
+		<Heat>
+			<Value>0</Value>
+			<Radius>0</Radius>
+			<Failing>0</Failing>
+			<FailRadius>0</FailRadius>
+		</Heat>
+		
+		<Light>
+			<Value>0</Value>
+			<Radius>0</Radius>
+			<Failing>0</Failing>
+			<FailRadius>0</FailRadius>
+		</Light>
+		-->
+<!--	<Element>
+		<Kind>None</Kind>
+		<Value>3</Value>         
+		<Radius>2</Radius>
+		<Failing>1</Failing>
+		<FailRadius>0</FailRadius>
+	</Element>-->
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+	</ThingDef>	
+
       <ThingDef Type="Building" Name="WeaponMaker_White" Parent="ProductionBase">
 			<ThingName>太白锻铁台</ThingName>
 			<Desc>用来将金属锭锻造为各种金属器具的工作台。</Desc>
