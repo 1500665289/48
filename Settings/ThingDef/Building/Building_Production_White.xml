@@ -1,40 +1,6 @@
 <ThingDefs>
 	<List>
-		<ThingDef Type="Building" Name="ProductionBase" Parent="BuildingBase">
-			<TexPath></TexPath>
-			<ThingName></ThingName>
-			<Desc>ProductionBase</Desc>
-			
-			<BlockLight>1</BlockLight>
-			<Beauty>2</Beauty>
-			<UseHitPoints>1</UseHitPoints>
-			<MaxHitPoints>500</MaxHitPoints>
-			<VisionRadius>10</VisionRadius>
-			
-			<ShadowSize>
-				<x>1</x>
-				<y>0.8</y>
-			</ShadowSize>
-			<Building>
-				<RoomKind>WorkRoom</RoomKind>
-				<BePackage>0</BePackage>
-				<ShowFree>1</ShowFree>
-				<SelectProduceStuff>1</SelectProduceStuff>
-				<WorkAnimation>assemble</WorkAnimation>
-			</Building>
-			<Ling>
-				<AddionLing>0</AddionLing>
-				<AddionRadius>1</AddionRadius>
-				<AddionFailing>0</AddionFailing>
-				<AddionFailRadius>0</AddionFailRadius>
-				
-				<Attenuation>0</Attenuation>
-				<Absorption>0</Absorption>
-				<Accommodate>0</Accommodate>
-			</Ling>
-		</ThingDef>
-		
-		<ThingDef Type="Building" Name="WeaponMaker_White" Parent="ProductionBase">
+      <ThingDef Type="Building" Name="WeaponMaker_White" Parent="ProductionBase">
 			<ThingName>太白锻铁台</ThingName>
 			<Desc>用来将金属锭锻造为各种金属器具的工作台。</Desc>
 			<TexPath>res\Sprs\buildingnew\building_bonfire1b</TexPath>
