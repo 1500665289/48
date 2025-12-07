@@ -1,22 +1,15 @@
 <ThingDefs>
-	<List>
-   <ThingDef Type="Building" Name="WeaponMaker_White" Parent="BuildingBase">
-   <TexPath>res/Sprs/buildingnew/building_bonfire1b</TexPath>
-   <TexScale>1</TexScale>
-	<ThingName>太白锻铁台</ThingName>
-	<Desc>就是一个神奇的锻铁台。</Desc>
-		<SelectAble>1</SelectAble>
-		<CastShadow>1</CastShadow>
-		<BlockLight>1</BlockLight>
-		<MaxHitPoints>500</MaxHitPoints>
-		<Beauty>100</Beauty>
-		<ElementKind>Tu</ElementKind>
-		<ColliderKind>NoPass</ColliderKind>
-		<Tags><!-- 功能属性 -->
-			<Tag Name="ForFun" Level="1"/>
-			<Tag Name="BasePractice" Level="1"/>
-		</Tags>
+<List>
 
+	<ThingDef Type="Building" Name="WeaponMaker_White" Parent="ProductionBase">	
+	<ThingName>太白锻铁台</ThingName>	
+	<Desc>就是一个神奇的锻铁台。</Desc>
+	<TexPath>res/Sprs/buildingnew/building_bonfire1b</TexPath>
+	<TexScale>1</TexScale>
+	<BlockLight>1</BlockLight>
+	<SelectAble>1</SelectAble>
+	<CastShadow>1</CastShadow>
+	<Beauty>100</Beauty>
 	<Collider>
 		<Data>
 			[0,4,0],
@@ -36,52 +29,28 @@
 			<li Index="3" X="0" Y="0.45" Ang="1"/>
 		</WorkOffset>
 	</Collider>
-	
 	<Building>
-		<ShowFree>0</ShowFree>
-		<NoFengshui>0</NoFengshui>
-		<NoFight>0</NoFight>
 		<Orientation>F,B,R</Orientation>
 		<BePackage>1</BePackage>
+		<SelectProduceStuff>0</SelectProduceStuff>
 		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
 		<CanMakeRoom>0</CanMakeRoom>
 		<WorkAnimation>iron</WorkAnimation>
-		
 		<BeMade>
 			<WorkToMake>250</WorkToMake>
 			<Quality>0</Quality>
-			<CostStuffCount>1600</CostStuffCount>
 			<StuffCategories>
 				<Stuff name="MetalBlock"/>
 				<Stuff name="RockBlock"/>
 			</StuffCategories>
-			<CostItems>
-				<Item name="Item_RoughWoodBlock" count="12"/>
-			</CostItems>
+			<CostStuffCount>1600</CostStuffCount>
 		</BeMade>
-		
 		<SnowRenderData>
 			<x>3.03</x>
 			<y>4.04</y>
 			<z>1</z>
 		</SnowRenderData>
-		
-		<Drive>
-			<StuffCategories>
-				<Stuff name="Wood"/>
-				<Stuff name="WoodBlock"/>
-			</StuffCategories>
-			<DrivingTexPath>res/Sprs/buildingnew/building_Smithstation1b</DrivingTexPath>
-			<CostStuffCount>15</CostStuffCount>
-			<Duration>0.05</Duration>
-			<DriveJustProdece>1</DriveJustProdece>
-			<RateMin>0</RateMin>
-			<RateMax>3</RateMax>
-		</Drive>
-		
-		<ProducePriority>1</ProducePriority>
 		<ProduceKind>Smithing</ProduceKind>
-		
 		<Produces>
 			<Produce>
 				<ThingDef>SP_Bow1</ThingDef>
@@ -125,6 +94,7 @@
 			</Produce>
 		</Produces>
 	</Building>
-</ThingDef>
-
-</List></ThingDefs>
+	</ThingDef>
+	
+</List>
+</ThingDefs>
