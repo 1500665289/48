@@ -100,7 +100,7 @@
 	</Ling>
 	</ThingDef>	
 
-   <ThingDef Type="Building" Name="WeaponMaker_White" Parent="ProductionBase">
+   <ThingDef Type="Building" Name="WeaponMaker_White" Parent="BuildingBase">
 	<ThingName>太白锻铁台</ThingName>
 	<Desc>用来将金属锭锻造为各种金属器具的工作台。</Desc>
 	<TileID>250</TileID>
