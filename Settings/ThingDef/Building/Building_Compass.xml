@@ -1,6 +1,6 @@
 <ThingDefs><List>
 	<ThingDef Type="Building" Name="Building_Compass" Parent="BuildingBase">
-	<TexPath>Spr\Building\compass.png</TexPath>
+	<TexPath>Resources\Spr\Building\compass.png</TexPath>
 	<TexScale>1</TexScale>
 	<SelectAble>1</SelectAble>
 	<BlockLight>1</BlockLight>
