@@ -1,8 +1,10 @@
 <ThingDefs>
 	<List>
    <ThingDef Type="Building" Name="WeaponMaker_White" Parent="BuildingBase">
+   <TexPath>res/Sprs/buildingnew/building_bonfire1b</TexPath>
+   <TexScale>1</TexScale>
 	<ThingName>太白锻铁台</ThingName>
-	<TexScale>1</TexScale>
+	<Desc>就是一个神奇的锻铁台。</Desc>
 		<SelectAble>1</SelectAble>
 		<CastShadow>1</CastShadow>
 		<BlockLight>1</BlockLight>
@@ -14,6 +16,7 @@
 			<Tag Name="ForFun" Level="1"/>
 			<Tag Name="BasePractice" Level="1"/>
 		</Tags>
+
 	<Collider>
 		<Data>
 			[0,4,0],
@@ -122,15 +125,6 @@
 			</Produce>
 		</Produces>
 	</Building>
-	
-	<Element>
-		<Kind>Huo</Kind>
-		<Value>8</Value>
-		<Radius>3</Radius>
-		<Failing>0.8</Failing>
-		<FailRadius>0</FailRadius>
-	</Element>
 </ThingDef>
 
-	</List>
-</ThingDefs>
+</List></ThingDefs>
